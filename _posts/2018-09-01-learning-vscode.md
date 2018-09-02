@@ -10,7 +10,6 @@ catalog:      true
 multilingual: true
 tags:
     - vscode
-    - atom
     - editor
 ---
 

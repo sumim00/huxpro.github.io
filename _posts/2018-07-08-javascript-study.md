@@ -3,14 +3,16 @@ layout: post
 title: JavaScript 정리
 categories: JavaScript
 tags: [JavaScript, 자바스크립트]
+date:         2018-07-08 20:18:00
+author:       "Sumim"
+header-img:   "img/in-post/post-thumb/2018-08-18.jpg"
 ---
 
 
 # JavaScript 정리
 
-> 20180708
->
 > 객체 정리해둔 파일이 날아가버렸다. 추가예정
+>
 
 
 
@@ -392,3 +394,9 @@ document.getElementId('btn').onclick = function(){
 | 종류   | 설명                                            |
 | ------ | ----------------------------------------------- |
 | target | this와 같이, 이벤트가 발생한 요소를 반환합니다. |
+
+
+
+### 참고 서적
+
++ [Do it! 자바스크립트 + 제이쿼리 입문](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=44282289)

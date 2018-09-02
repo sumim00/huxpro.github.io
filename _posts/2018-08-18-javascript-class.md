@@ -1,13 +1,16 @@
 ---
 layout: post
 title: JavaScript 클래스 단위 프로그래밍
-categories: JavaScript
+date:         2018-08-18 18:55:00
+author:       "Sumim"
+header-img:   "img/in-post/post-thumb/2018-08-18.jpg"
+header-mask:  0.3
 tags: [JavaScript, 자바스크립트]
 ---
 
 # JavaScript 클래스 단위 프로그래밍
 
->자바스크립트 + jQuery 완전정복 스터디  -리디북스 2018- 도서를 중심으로 공부중
+>자바스크립트를 클래스 단위로 프로그래밍 해보자
 
 
 
@@ -93,5 +96,13 @@ var 인스턴스 = new 클래스이름();
 
 
 
+### 결론
+
 이상 세 가지 클래스 프로그래밍 방법에 대해 알아보았다. 객체 외부에서의 프로퍼티와 메서드 접근 방식은 서로 달랐지만 객체 내부에서의 접근 방식에서는 세 방식 모두 this 속성값을 쓴다는 특징이 있었다. 아직 실무에서는 사용해보지 않았지만 언젠가 사용할 날이 올 때 바로 쓸 수 있도록 열심히 공부해야겠다. 
+
+
+
+### 참고 서적
+
+[자바스크립트 + jQuery 완전정복 스터디 3 : 중급 / 고급 / 활용편](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=68050780)
 
