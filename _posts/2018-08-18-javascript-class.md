@@ -6,6 +6,7 @@ author:       "Sumim"
 header-img:   "img/in-post/post-thumb/2018-08-18.jpg"
 header-mask:  0.3
 tags: [JavaScript, 자바스크립트]
+comments: true
 ---
 
 # JavaScript 클래스 단위 프로그래밍

@@ -6,6 +6,7 @@ tags: [JavaScript, 자바스크립트]
 date:         2018-07-08 20:18:00
 author:       "Sumim"
 header-img:   "img/in-post/post-thumb/2018-08-18.jpg"
+comments: true
 ---
 
 

@@ -8,6 +8,7 @@ header-img:   "img/in-post/post-thumb/2018-09-01.png"
 header-mask:  0.3
 catalog:      true
 multilingual: true
+comments: true
 tags:
     - vscode
     - editor

@@ -6,6 +6,7 @@ date:       2018-10-05
 author:     "Sumim"
 header-img: "img/in-post/2018-10-04_img01.jpg"
 catalog: true
+comments: true
 tags:
     - e.preventDefault
     - e.stopPropagation
