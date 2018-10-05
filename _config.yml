@@ -53,9 +53,9 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: https-sumim00-github-io
-layout: default
-comments: true
+disqus_username: sumim00
+
+disqus-shortname: sumim00
 
 # Netease settings
 netease_comment: false
