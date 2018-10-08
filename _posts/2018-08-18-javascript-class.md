@@ -3,7 +3,7 @@ layout: post
 title: JavaScript 클래스 단위 프로그래밍
 date:         2018-08-18 18:55:00
 author:       "Sumim"
-header-img:   "img/in-post/post-thumb/2018-08-18.jpg"
+header-img:   "https://sumim00.github.io/img/in-post/post-thumb/2018-08-18.jpg"
 header-mask:  0.3
 tags: [JavaScript, 자바스크립트]
 comments: true

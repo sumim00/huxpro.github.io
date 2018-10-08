@@ -4,7 +4,7 @@ title:        "vscode 도전기"
 subtitle:     "에디터를 바꿔보자"
 date:         2018-09-01 16:54:00
 author:       "Sumim"
-header-img:   "img/in-post/post-thumb/2018-09-01.png"
+header-img:   "https://sumim00.github.io/img/in-post/post-thumb/2018-09-01.jpg"
 header-mask:  0.3
 catalog:      true
 multilingual: true
@@ -36,7 +36,6 @@ tags:
 
 - 에디터 내 chrome 디버거가 있어 바로 중단점을 설정하고 js를 디버그할 수 있다.
 
-  
 
 그리고 여태 atom밖에 쓰지 않아서 몰랐는데, 에디터마다 확장 패키지들이 각기 달라서, 나에게 맞는 패키지가 있는 에디터를 사용하는 것도 괜찮을 방법이라고 생각했다. 이번에는 indent-rainbow를 깔아봤는데, 들여쓰기 너비마다 컬러가 다르게 나와서 div만 무식하게 나열되어 있는 코드에서 유용하게 사용하고 있다. 
 

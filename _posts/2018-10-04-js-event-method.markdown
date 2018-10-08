@@ -4,7 +4,7 @@ title:      "[JavaScript] e.preventDefault / e.stopPropagation"
 subtitle:   "이벤트를 제어하는 메서드"
 date:       2018-10-05
 author:     "Sumim"
-header-img: "img/in-post/2018-10-04_img01.jpg"
+header-img: "https://sumim00.github.io/img/in-post/2018-10-04_img01.png"
 catalog: true
 comments: true
 tags:
