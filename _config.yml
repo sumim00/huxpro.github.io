@@ -18,7 +18,7 @@ RSS: true
 github_username:    sumim00
 #twitter_username:   huxpro
 #facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+linkedin_username:  jiyoung-lim-22257a163
 
 
 
@@ -53,9 +53,9 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: sumim00
+disqus_username: https-sumim00-github-io
 
-disqus-shortname: sumim00
+disqus-shortname: https-sumim00-github-io
 
 # Netease settings
 netease_comment: false
@@ -68,7 +68,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-125060664-1'            # Format: UA-xxxxxx-xx
-ga_domain: vivid8222@gmail.com
+ga_domain: sumim00.github.io
 
 
 
