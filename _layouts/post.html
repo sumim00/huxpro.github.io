@@ -179,9 +179,9 @@ layout: default
 {% endif %}
 
 
-<!-- {% if site.disqus_username %}
-disqus 公共JS代码 start (一个网页只需插入一次) -->
-<!-- <script type="text/javascript">
+{% if site.disqus_username %}
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{page.id}}";
@@ -192,12 +192,12 @@ disqus 公共JS代码 start (一个网页只需插入一次) -->
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script>-->
+</script>
 <!-- disqus 公共JS代码 end -->
-<!-- {% endif %} -->
+{% endif %}
 
 <!-- discus comment start -->
-{% if site.disqus-shortname %}{% include comment.html %}{% endif %}
+<!-- {% if site.disqus-shortname %}{% include comment.html %}{% endif %} -->
 <!-- discus comment end -->
 
 {% if site.anchorjs %}
