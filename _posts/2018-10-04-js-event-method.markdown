@@ -4,7 +4,7 @@ title:      "[JavaScript] e.preventDefault / e.stopPropagation"
 subtitle:   "이벤트를 제어하는 메서드"
 date:       2018-10-05
 author:     "Sumim"
-header-img: "https://sumim00.github.io/img/in-post/2018-10-04_img01.png"
+header-img: "https://sumim00.github.io/img/in-post/2018/1004_thumb.png"
 catalog: true
 comments: true
 tags:
@@ -27,7 +27,7 @@ e.stopPropagation는 이벤트의 전파 또는 전달을 막는 메서드이다
 
 자바스크립트로 어떤 DOM에 이벤트를 실행시켰을때, 이벤트는 우리가 지정해놓은 특정 엘리먼트에만 적용되지 않고 해당 엘리먼트의 자식, 부모 엘리먼트까지 전파된다. 이 떄 최초의 엘리먼트에서 부모 요소로 전파되는 방식을 버블링 (Bubbling), 자식 요소로 전달되는 방식을 캡쳐링 (Capturing) 이라고 정의한다.
 
-![버블링 캡쳐링 도식화](img/in-post/2018-10-04_img01.jpg)
+![버블링 캡쳐링 도식화](https://sumim00.github.io/img/in-post/2018/1004_thumb.png)
 
 ```
 <body onclick="onClick(this);">body
@@ -45,11 +45,11 @@ e.stopPropagation는 이벤트의 전파 또는 전달을 막는 메서드이다
 </body>
 ```
 
-![버블링 결과](img/in-post/2018-10-04_img02.jpg)
+![버블링 결과](https://sumim00.github.io/img/in-post/2018/1004_img01.png)
 
 이 상태로 button 엘리먼트를 클릭하게 되면 버블링으로 button의 상위 엘리먼트인 p, div, body까지 이벤트가 실행된 것을 볼 수 있다.
 
-![e.stopPropagation 결과](img/in-post/2018-10-04_img03.jpg)
+![e.stopPropagation 결과](https://sumim00.github.io/img/in-post/2018/1004_img02.png)
 
 e.stopPropagation는 이러한 이벤트 버블링, 캡쳐링을 방지하기 위해 호출한다. 이벤트 함수 안에 e.stopPropagation를 추가하고 실행한 결과는 다음과 같다.
 
@@ -99,5 +99,7 @@ a는 기본적으로 원하는 위치로 이동할 수 있는 앵커 기능이 �
 ```
 
 
+
+## 결론
 
 이상 이벤트 핸들러와 관련된 메서드들을 알아보았다. 다른 사람들의 코드를 보면 자주 사용하는것을 볼 수 있었는데 어떤 상황에서 쓰면 되는지만 알고 그 원리에 대해서는 자세히 몰랐기 때문에 이번 기회를 통해 정리해봤다. 미처 다루지 못한 메서드들은 앞으로 공부하면서 계속 추가할 예정이다.
