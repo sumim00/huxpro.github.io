@@ -4,7 +4,7 @@ title:        "vscode 도전기"
 subtitle:     "에디터를 바꿔보자"
 date:         2018-09-01 16:54:00
 author:       "Sumim"
-header-img:   "https://sumim00.github.io/img/in-post/post-thumb/2018-09-01.jpg"
+header-img:   "img/in-post/2018/0901.jpg"
 header-mask:  0.3
 catalog:      true
 multilingual: true

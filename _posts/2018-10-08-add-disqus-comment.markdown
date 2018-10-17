@@ -4,7 +4,7 @@ title:      "[Disqus] 블로그 댓글 기능 추가하기"
 subtitle:   "Disqus 서비스를 이용해 쉽게 댓글 기능을 추가해보자"
 date:       2018-10-08
 author:     "Sumim"
-header-img: "https://sumim00.github.io/img/in-post/181008/disqus_thumb.jpg"
+header-img: "img/in-post/181008/disqus_thumb.jpg"
 catalog: true
 comments: true
 tags:
