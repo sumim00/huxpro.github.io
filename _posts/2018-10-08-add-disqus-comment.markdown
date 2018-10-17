@@ -5,6 +5,7 @@ subtitle:   "Disqus 서비스를 이용해 쉽게 댓글 기능을 추가해보�
 date:       2018-10-08
 author:     "Sumim"
 header-img: "img/in-post/181008/disqus_thumb.jpg"
+header-mask:  0.3
 catalog: true
 comments: true
 tags:
@@ -23,6 +24,8 @@ tags:
 
 
 
+
+
 ## 서론
 
 Disqus란 2007년에 만들어진 소셜 댓글 서비스로 다양한 소셜 네트워크의 사람들이 서로 생각을 공유할 수 있도록 만들어진  도구이다. 회원가입 후 api를 연동시키기만 하면 개인 블로그에 빠르고 쉽게 댓글 기능을 달 수 있기 때문에 전세계의 수많은 블로거들의 사랑을 받고 있다. 
@@ -30,6 +33,8 @@ Disqus란 2007년에 만들어진 소셜 댓글 서비스로 다양한 소셜 �
 github blog처럼 정적 블로그를 사용하면 원하는대로 커스텀할 수 있다는 장점이 있긴 한데, 나같이 귀찮음이 온몸에 밴 사람들에겐 그 장점이 바로 단점으로 돌아온다...
 
 지금 사용하고 있는 Jekyll 테마는 기본으로 disqus가 적용되어 있긴 한데 새 블로그로 이전할 때를 대비해서 추가 방법을 정리해보고자 한다.
+
+
 
 
 
@@ -49,6 +54,8 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
 
 
 
+
+
 ## 플랫폼 선택
 
 ![disqus 댓글 기능 선택](https://sumim00.github.io/img/in-post/181008/disqus_04.png)
@@ -65,7 +72,9 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
 
 
 
-## 
+
+
+## 코드 추가
 
 1. ```_posts ``` 디렉토리 안에 있는 포스트 파일의 YAML 머리말에 ``` comments: true ``` 변수를 추가한다.
 
@@ -80,7 +89,18 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
    comments: true
    ```
 
-2. Universal Embed Code를 클릭하면 추가될 부분에 삽입할 코드가 나타단다. 레이아웃에서 댓글이 추가될 영역에 ```{% if page.comments %}```와 ```{% endif %}``` 태그를 추가하고 그 사이에 제공된 Universal Embed Code를 삽입한다. 
+2. 2번이라고 쓰여져 있는 부분을 보면 Universal Embed Code를 확인할 수 있는데, 클릭하면 추가될 부분에 아래와 같은 코드가 나타단다. 이 코드를 블로그 실행 시에 댓글창이 나타날 영역에 추가하면 되는데 이 때 두 가지 방법을 사용할 수 있다.
+
+
+
+   + disqus코드만 있는 파일을 따로 생성한 뒤 레이아웃 파일에 ```{% if page.comments %}```와 ```{% endif %}``` 태그를 추가하고, 그 사이에 생성한 파일명 삽입
+   + 레이아웃 파일에 직접 Universal Embed Code를 추가
+
+
+
+   둘 중에 본인이 원하는 방법을 사용하면 된다. 내 경우는 ```_layouts ``` 폴더 안에 이미 추가가 되어있어서 이 작업은 빼고 진행했다. 
+
+
 
    ![disqus shorname 확인](https://sumim00.github.io/img/in-post/181008/disqus_07.png)
 
@@ -108,7 +128,26 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
                                
    ```
 
-   이 때 PAGE_URL에는 적용한 내 블로그 url,  PAGE_IDENTIFIER에는 개인 **shortname**을 추가해야 한다.  shortname은 disqus에서 내 주소의 고유 이름이라고 볼 수 있는데, Disqus메인 -> Settings -> General 에서 확인 가능하다.
+
+
+   코드를 보면 PAGE_URL에는 적용한 **내 블로그 url**,  PAGE_IDENTIFIER에는 개인 **shortname**을 추가해야 하는데, 직접 입력하는 방법도 있지만 config.yml에서 입력하고 데이터를 받아올 수도 있다. 먼저 해당 태그에 이런 형식으로 데이터 값을 받아오게끔 변경한다.
+
+
+
+   ```
+   this.page.url = "{{site.disqus_username}}";
+   this.page.identifier = "{{page.id}}";
+   ```
+
+
+
+   그리고``` config.yml``` 파일에서 ``` disqus_username: disqus에서 받은 내 shortname ```  를 추가한다.
+
+
+
+   참고로 shortname은 disqus에서 내 주소의 고유 이름이라고 볼 수 있는데, Disqus메인 -> Settings -> General 에서 확인 가능하다.
+
+
 
    ![disqus shorname 확인](https://sumim00.github.io/img/in-post/181008/disqus_09.png)
 
@@ -130,11 +169,15 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
 
 
 
+
+
 ## 완료
 
 ![disqus가 적용된 화면](https://sumim00.github.io/img/in-post/181008/disqus_13.png)
 
 입력을 완료한 뒤에 파일을 저장하고, 내 블로그에 commit한 뒤 확인하면 이렇게 블로그에 댓글 기능이 추가된 모습을 볼 수 있다! 지금 추가한 댓글 형태는 기본값이고, 커스텀도 가능하다니 시간나면 적용해보는 것도 좋겠다.
+
+
 
 
 

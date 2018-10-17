@@ -5,6 +5,7 @@ subtitle:   "이벤트를 제어하는 메서드"
 date:       2018-10-05
 author:     "Sumim"
 header-img: "img/in-post/2018/1004_thumb.png"
+header-mask:  0.5
 catalog: true
 comments: true
 tags:
