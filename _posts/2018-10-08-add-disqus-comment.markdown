@@ -89,6 +89,7 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
    comments: true
    ```
 
+
 2. 2번이라고 쓰여져 있는 부분을 보면 Universal Embed Code를 확인할 수 있는데, 클릭하면 추가될 부분에 아래와 같은 코드가 나타단다. 이 코드를 블로그 실행 시에 댓글창이 나타날 영역에 추가하면 되는데 이 때 두 가지 방법을 사용할 수 있다.
 
 
@@ -141,13 +142,7 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
 
 
 
-   그리고``` config.yml``` 파일에서 ``` disqus_username: disqus에서 받은 내 shortname ```  를 추가한다.
-
-
-
-   참고로 shortname은 disqus에서 내 주소의 고유 이름이라고 볼 수 있는데, Disqus메인 -> Settings -> General 에서 확인 가능하다.
-
-
+ 그리고 ```disqus_username```  으로 설정할 내 shortname을 확인하러 가보자.   shortname은 disqus에서 지정한 내 주소의 고유 이름이라고 볼 수 있는데, Disqus메인 -> Settings -> General 에서 확인 가능하다.
 
    ![disqus shorname 확인](https://sumim00.github.io/img/in-post/181008/disqus_09.png)
 
@@ -157,17 +152,21 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
 
 
 
-먼저 메인에서 내 프로필 사진 옆 admin을 누르면 내가 추가한 주소의 통계, 설정 등을 볼 수 있다. 여기서 Setting를 클릭하고 확인하고싶은 블로그 주소로 들어간다. 
+먼저 메인에서 내 프로필 사진 옆 admin을 누르면 내가 추가한 주소의 통계, 설정 등을 볼 수 있다. 여기서 Setting를 클릭하고 확인하고싶은 블로그 주소로 들어간다.
+
+
 
 ![disqus shorname 확인](https://sumim00.github.io/img/in-post/181008/disqus_11.png)
 
-나는 총 2개가 연결되어 있는데 1개는 프라이버시상 지웠다. shortname을 확인하고 싶은 블로그 이름을 클릭하자.
+
 
 ![disqus shorname 확인](https://sumim00.github.io/img/in-post/181008/disqus_12.png)
 
-선택하고 나면 General 탭으로 이동할 수 있는데, 여기서 내 shortname을 확인할 수 있다.  **Website URL**과 **Shortname**을 복사해서 앞서 추가한 **PAGE_URL**과 **PAGE_IDENTIFIER** 변수에 각각 추가한다.
+선택하고 나면 General 탭에서 내 shortname을 확인할 수 있다.  **Shortname**을 복사해서  ``` config.yml``` 파일에서 코드를 추가한다.
 
-
+```
+disqus_username: 내 shortname
+```
 
 
 
