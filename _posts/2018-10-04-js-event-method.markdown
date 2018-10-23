@@ -30,7 +30,7 @@ e.stopPropagation는 이벤트의 전파 또는 전달을 막는 메서드이다
 
 ![버블링 캡쳐링 도식화](https://sumim00.github.io/img/in-post/2018/1004_thumb.png)
 
-```
+```html
 <body onclick="onClick(this);">body
     <div onclick="onClick(this);">div
         <p onclick="onClick(this);">p
@@ -56,7 +56,7 @@ e.stopPropagation는 이러한 이벤트 버블링, 캡쳐링을 방지하기 �
 
 
 
-```
+```html
 <body onclick="onClick(this);">body
     <div onclick="onClick(this);">div
         <p onclick="onClick(this);">p
@@ -90,7 +90,7 @@ a는 기본적으로 원하는 위치로 이동할 수 있는 앵커 기능이 �
 
 이 때 아래와 같이 이벤트 함수 안에  e.preventDefault();를 추가하게되면 이벤트 호출 시 a의 기본 동작을 막아줌으로써 원하지 않은 최상단으로의 이동을 방지할 수 있다. 
 
-```
+```html
 <script type="text/javascript">
     function onClick(e) {
         alert('hello');

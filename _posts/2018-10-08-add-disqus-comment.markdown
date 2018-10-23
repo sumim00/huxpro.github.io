@@ -105,7 +105,7 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
 
    ![disqus shorname 확인](https://sumim00.github.io/img/in-post/181008/disqus_07.png)
 
-   ```
+   ```html
    <div id="disqus_thread"></div>
    <script>
    
@@ -135,7 +135,7 @@ Signup 버튼을 누르고 회원가입이 완료되면 이런 창이 뜬다. �
 
 
 
-   ```
+   ```yaml
    this.page.url = "{{site.disqus_username}}";
    this.page.identifier = "{{page.id}}";
    ```

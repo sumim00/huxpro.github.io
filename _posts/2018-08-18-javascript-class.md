@@ -1,11 +1,11 @@
 ---
 layout: post
-title: JavaScript 클래스 단위 프로그래밍
+title: [JavaScript] 클래스 단위 프로그래밍
 date:         2018-08-18 18:55:00
 author:       "Sumim"
 header-img:   "img/in-post/2018/0818.jpg"
 header-mask:  0.3
-tags: [JavaScript, 자바스크립트]
+tags: [JavaScript]
 comments: true
 ---
 
@@ -32,7 +32,7 @@ comments: true
 
 ## 3. 오브젝트 리터럴 방식
 
-```
+```javascript
 var 인스턴스 = {
     프로퍼티: 초기값,
     메서드1: function(){
@@ -54,7 +54,7 @@ var 인스턴스 = {
 
 ## 4. 함수 방식
 
-```
+```javascript
 function 클래스이름(){
     this.프로퍼티=초기값;
     this.메서드1=function(){
@@ -77,7 +77,7 @@ var 인스턴스=new 클래스이름(); //new가 함수 생성 키워드, 붙이
 
 ## 5. 프로토타입 방식
 
-```
+```javascript
 function 클래스이름(){
     this.프로퍼티 = 초기값;
 }

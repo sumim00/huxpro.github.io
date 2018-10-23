@@ -1,18 +1,17 @@
 ---
 layout: post
-title: JavaScript 정리
-categories: JavaScript
-tags: [JavaScript, 자바스크립트]
+title: "[JavaScript] JavaScript 기초 정리"
+categories: [JavaScript]
 date:         2018-07-08 20:18:00
 author:       "Sumim"
 header-img:   "img/in-post/2018/0818.jpg"
 header-mask:  0.3
-tags: [JavaScript, 자바스크립트]
+tags: [JavaScript]
 comments: true
 ---
 
 
-# JavaScript 정리
+# JavaScript 기초 정리
 
 > 객체 정리해둔 파일이 날아가버렸다. 추가예정
 >
@@ -23,7 +22,7 @@ comments: true
 
 내부 선언 방식
 
-```
+```html
 <script>
 자바스크립트 코드
 </script>
@@ -31,7 +30,7 @@ comments: true
 
 외부 선언 방식
 
-```
+```html
 <script src="자바스크립트 파일 경로"></script>
 ```
 
@@ -43,7 +42,7 @@ comments: true
 
 변수 선언 형식
 
-```
+```javascript
 var 변수명 = 값;
 var num = 100; //숫자형 데이터
 var str = "hello"; //문자형 데이터
@@ -79,7 +78,7 @@ var bool = true; //논리형 데이터
 
 - if문 , else if문 (조건 만족 여부에 따라 스크립트 코드 수행 여부가 결정)
 
-```
+```javascript
 if (조건식1) {
 	실행문1;
 } else if (조건식2){
@@ -93,7 +92,7 @@ if (조건식1) {
 
 - switch문 (일치하는 경우에 값이 있을 경우 선택하여 수행)
 
-```
+```javascript
 var 변수 = 초기값;
 switch (변수) {
 	case 값1: 실행문1;
@@ -108,7 +107,7 @@ switch (변수) {
 
 - while문 (조건식을 만족하는 동안 반복실행)
 
-```
+```javascript
 var 변수 = 초기값;
 while (조건식) {
 	실행문;
@@ -118,7 +117,7 @@ while (조건식) {
 
 - do while문 (반드시 한 번은 실행문을 실행하고 조건식을 검사)
 
-```
+```javascript
 var 변수 = 초기값;
 do {
     실행문;
@@ -129,7 +128,7 @@ while (조건식)
 
 - for문 (while과 방식은 동일)
 
-```
+```javascript
 for (초기값; 조건식; 증감식){
     실행문;
 }
@@ -145,7 +144,7 @@ for (초기값; 조건식; 증감식){
 
 ## 함수 선언문
 
-```
+```javascript
 function add(a+b){
     return a+b;
 } // 선언 함수
@@ -159,7 +158,7 @@ var add = function(a,b){
 
 ## 함수 호출
 
-```
+```javascript
 function 함수명(매개변수1, 매개변수2...매개변수n){
     스크립트 실행문;
 }
@@ -191,7 +190,7 @@ function 함수명(매개변수1, 매개변수2...매개변수n){
 
 유형 : 데이터 반환, 강제종료, 재귀 함수 호출
 
-```
+```javascript
 function calc(){
     var result = 100+200;
     return result; //데이터를 반환하는 return문
@@ -217,7 +216,7 @@ function testFnc(){
 
 전역 변수
 
-```
+```javascript
 var 변수;
 function 함수명(){
     변수=값;
@@ -226,7 +225,7 @@ function 함수명(){
 
 지역 변수
 
-```
+```javascript
 function 함수명(){
     var 변수=값;
 }
@@ -284,7 +283,7 @@ function 함수명(){
 
 - 직접 요소 이벤트 등록 방식
 
-```
+```html
 <button id="btn" onclick="alert('Event')">버튼</button>
 ```
 
@@ -292,7 +291,7 @@ function 함수명(){
 
 - DOM을 이용한 이벤트 등록 방식
 
-```
+```html
 <button id="btn">버튼</button>
 
 document.getElementId('btn').onclick = function(){
@@ -314,7 +313,7 @@ document.getElementId('btn').onclick = function(){
 
 한 요소에 중복으로 이벤트를 등록하게 될 경우,  일반적으로는 맨 마지막에 있는 이벤트만 실행하고 나머지 이벤트는 실행하지 않는다. 이러한 중복 이벤트 문제를 해결하기 위해 이벤트 등록 메서드를 사용할 수 있다.
 
-```
+```javascript
 요소 선택.addEventListener("이벤트 종류", 함수명 또는 익명함수, false(표준 캡처 방식));
 //일반 브라우저
 
@@ -336,7 +335,7 @@ document.getElementId('btn').onclick = function(){
 
 - ie9이상 이벤트 객체 생성
 
-```
+```html
 <script type="text/javascript">
 	document.onkeydown=function(e){
         alert(e);
@@ -346,7 +345,7 @@ document.getElementId('btn').onclick = function(){
 
 - ie8이하 이벤트 객체 생성
 
-```
+```html
 <script type="text/javascript">
 	document.onkeydown=function(e){
         alert(window.event);
@@ -356,7 +355,7 @@ document.getElementId('btn').onclick = function(){
 
 - 모든 브라우저 호환 (삼항조건연산자를 이용, true면 e 실행, false면 window.event 실행)
 
-```
+```html
 <script type="text/javascript">
 	document.onkeydown=function(e){
         var eventObj = e?e:window.event;
