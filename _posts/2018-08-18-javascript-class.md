@@ -1,11 +1,12 @@
 ---
 layout: post
-title: [JavaScript] 클래스 단위 프로그래밍
+title: "[JavaScript] 클래스 단위 프로그래밍"
 date:         2018-08-18 18:55:00
 author:       "Sumim"
 header-img:   "img/in-post/2018/0818.jpg"
 header-mask:  0.3
 tags: [JavaScript]
+categories: [JavaScript]
 comments: true
 ---
 
