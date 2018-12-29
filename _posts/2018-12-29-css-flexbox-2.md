@@ -23,7 +23,11 @@ tags:
 >
 > 지난 포스트 : [[CSS] Flexbox 정리 (1) 부모 요소 속성](https://sumim00.github.io/css/2018/12/29/css-flexbox-1/)
 
+<br/>
 
+------
+
+<br/>
 
 ## 서론
 
@@ -49,9 +53,11 @@ tags:
 
 ![flexbox 요소 정리](https://sumim00.github.io/img/in-post/2018/1229_img01_1.jpg)
 
+<br/>
 
+----
 
-
+<br/>
 
 ## 자식 요소 속성
 
@@ -69,7 +75,11 @@ li {
 
 ![flex order](https://sumim00.github.io/img/in-post/2018/1229_img10.jpg)
 
+<br/>
 
+------
+
+<br/>
 
 ### flex-grow
 
@@ -87,11 +97,13 @@ li {
 
 
 
+<br/>
 
+------
+
+<br/>
 
 ### flex-shrink
-
-  flex-wrap
 
 ```flex-grow``` 속성과 반대로 부모 요소에 여분의 공간이 없을 때 자식 요소의 너비를 축소하는 속성이다. 기본값은 1이고, 0이면 줄어들지 않고 본인의 너비값을 그대로 유지하며, 1보다 큰 숫자를 입력하면 숫자가 클수록 더 많이 축소한다.
 
@@ -105,7 +117,11 @@ li {
 
 ![flex flex-shrink](https://sumim00.github.io/img/in-post/2018/1229_img12.jpg)
 
+<br/>
 
+------
+
+<br/>
 
 ### flex-basis
 
@@ -119,9 +135,11 @@ li {
 
 ![flex flex-basis](https://sumim00.github.io/img/in-post/2018/1229_img13.jpg)
 
+<br/>
 
+------
 
-
+<br/>
 
 ### flex
 
@@ -133,9 +151,11 @@ li {
 }
 ```
 
+<br/>
 
+------
 
-
+<br/>
 
 ### align-self
 
@@ -158,9 +178,11 @@ li {
 
 ![flex align-self](https://sumim00.github.io/img/in-post/2018/1229_img14.jpg)
 
+<br/>
 
+------
 
-
+<br/>
 
 ## 참고
 

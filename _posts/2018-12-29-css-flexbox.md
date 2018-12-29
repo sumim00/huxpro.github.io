@@ -4,8 +4,8 @@ title:        "[CSS] Flexbox 정리 (1) 부모 요소 속성"
 subtitle:     "CSS3 Flexbox의 정의 및 부모 요소 속성 정리"
 date:         2018-12-29 15:31:00
 author:       "Sumim"
-header-img:   "img/in-post/thumb/css.jpg"
-header-mask:  0.4
+header-img:   "img/in-post/2018/1229_img01.jpg"
+header-mask:  0.3
 catalog:      true
 multilingual: true
 comments: true
@@ -21,11 +21,9 @@ tags:
 
 > CSS3 Flexbox의 정의 및 부모 요소 속성 정리
 
-<br/>
 
-------
 
-<br/>
+
 
 ## 정의
 
@@ -39,11 +37,9 @@ Flexbox는 브라우저의 크기 혹은 요소의 크기가 동적이거나 명
 
 출처 : [w3schools css3 flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 
-<br/>
 
-------
 
-<br/>
+
 
 ## 표
 
@@ -61,15 +57,11 @@ Flexbox의 속성들을 간략하게 표로 정리하면 다음과 같다.
 
 
 
-표에서도 알 수 있듯이 Flexbox 속성은 크게 박스들을 감싸고 있는 <u>부모 요소</u>에 적용하는 속성과,  그 안에 개별적인 <u>자식 요소</u>들에게 적용하는 속성으로 분류할 수 있다.  따라서 1부에서는 부요 요소 속성, 2부에서는 자식 요소의 속성에 대해 정리해보고자 한다. 
+표에서도 알 수 있듯이 Flexbox 속성은 크게 박스들을 감싸고 있는 부모 요소에 적용하는 속성과,  그 안에 개별적인 자식 요소들에게 적용하는 속성으로 분류할 수 있다.  따라서 1부에서는 부요 요소 속성, 2부에서는 자식 요소의 속성에 대해 정리해보고자 한다. 
 
 ![flexbox 요소 정리](https://sumim00.github.io/img/in-post/2018/1229_img01_1.jpg)
 
-<br/>
 
-------
-
-<br/>
 
 ## 부모 요소 속성
 
@@ -88,15 +80,11 @@ ul {
 
 ![flex display](https://sumim00.github.io/img/in-post/2018/1229_img02.jpg)
 
-<br/>
 
-------
-
-<br/>
 
 ### flex-direction
 
-flex가 진행될 방향을 설정하는 속성이다. 주의해야 할 점은 아랍어권와 같은 텍스트가 좌 ←  우로 읽히는 환경에서는 기본 direction이 ```rtl```로 설정되어 있기 때문에 flex 또한 이를 고려해서 설정해야한다.
+flex가 진행될 방향을 설정하는 속성이다. 주의해야 할 점은 아랍어권와 같은 텍스트가 좌 ←  우로 읽히는 환경에서는 기본 direction이 rtl로 설정되어 있기 때문에 flex 또한 이를 고려해서 설정해야한다.
 
 ```css
 ul {
@@ -113,13 +101,13 @@ ul {
 
 ![flex direction](https://sumim00.github.io/img/in-post/2018/1229_img03.jpg)
 
-<br/>
 
-------
 
-<br/>
+
 
 ### flex-wrap
+
+  flex-wrap
 
 부모 요소의 공간이 자식 요소의 너비를 더 이상 포함할 수 없을 때, 한 줄로 유지할 것인지 여러 줄로 분리할 것인지 정하는 속성이다.
 
@@ -137,11 +125,7 @@ ul {
 
 ![flex wrap](https://sumim00.github.io/img/in-post/2018/1229_img04.jpg)
 
-<br/>
 
-------
-
-<br/>
 
 ### flex-flow
 
@@ -155,11 +139,7 @@ ul {
 
 
 
-<br/>
 
-------
-
-<br/>
 
 ### justify-content
 
@@ -190,11 +170,7 @@ space-around와 space-evenly의 경우 요소의 좌우 여백이 대상인지, 
 
 ![flex justify](https://sumim00.github.io/img/in-post/2018/1229_img06.jpg)
 
-<br/>
 
-------
-
-<br/>
 
 ### align-items
 
@@ -218,21 +194,17 @@ ul {
 
 
 
-```baseline``` 의 경우 모든 요소의 스타일이 같을 경우 ```flex-start```와 동일하게 보여지나, ```font-size```가 제각각인 경우 폰트의 기준선에 맞춰 정렬됨을 확인할 수 있다.
+baseline 의 경우 모든 요소의 스타일이 같을 경우 flex-start와 동일하게 보여지나, font-size가 제각각인 경우 폰트의 기준선에 맞춰 정렬됨을 확인할 수 있다.
 
 
 
 ![flex align](https://sumim00.github.io/img/in-post/2018/1229_img08.jpg)
 
-<br/>
 
-------
-
-<br/>
 
 ### align-content
 
-```align-items```가 자식 요소 각각의 세로정렬을 정의했다면 ```align-contents```는 flex된 요소들이 여러줄일 경우 행간의 여백을 정의하는 속성이다.
+align-items가 자식 요소 각각의 세로정렬을 정의했다면 align-contents는 flex된 요소들이 여러줄일 경우 행간의 여백을 정의하는 속성이다.
 
 ```css
 ul {
@@ -251,11 +223,9 @@ ul {
 
 ![flex align](https://sumim00.github.io/img/in-post/2018/1229_img09.jpg)
 
-<br/>
 
-------
 
-<br/>
+
 
 ## 참고
 
