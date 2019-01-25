@@ -13,8 +13,11 @@
 
 - HTML
 - CSS
-- SCSS
+- Sass
 - JavaScript
+- EcmaScript2015 (ES6)
 - jQuery
+- React
+- MongoDB
 - Git
 
