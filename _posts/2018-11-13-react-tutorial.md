@@ -234,7 +234,7 @@ import Counter from './Counter';
 
 작업한 코드를 App.js에 불러온 뒤 렌더링을 시키면 다음과 같이 나타난다.
 
-![state 실행화면](https://sumim00.github.io/img/in-post/2018/1113_img03.png)
+![state 실행화면](https://sumim00.github.io/img/in-post/2018/1113_img04.png)
 
 
 
