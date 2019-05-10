@@ -4,7 +4,7 @@ title:        "[etc] NEXON 컴퓨터 박물관 관람 후기"
 subtitle:     "제주도 컴퓨터 박물관 소개 및 소감"
 date:         2019-05-10 16:11:00
 author:       "Sumim"
-header-img:   "img/in-post/img/in-post/2019/0510_img01.JPG"
+header-img:   "img/in-post/2019/0510_img01.JPG"
 header-mask:  0.6
 catalog:      true
 multilingual: true
