@@ -4,7 +4,7 @@ title:        "[Vue.js] 템플릿 문법이란"
 subtitle:     "Vue에서 HTML 템플릿을 정의하는 방법"
 date:         2019-05-25 22:44:00
 author:       "Sumim"
-header-img:   "img/in-post/2019/vue.jpg"
+header-img:   "img/in-post/thumb/vue.jpg"
 header-mask:  0.4
 catalog:      true
 multilingual: true
@@ -34,7 +34,7 @@ tags:
 
 Vue 인스턴스에 있는 데이터를 HTML 템플릿에 표현하기 위해 사용한다.
 
-콧수염을 닮은 Mustache `{{ }}` 템플릿 엔진을 사용하며, 가장 기본적인 데이터 바인딩 체계이다.
+콧수염을 닮은 Mustache {{ }} 템플릿 엔진을 사용하며, 가장 기본적인 데이터 바인딩 체계이다.
 
 | Name                   | Code                                                         |
 | ---------------------- | ------------------------------------------------------------ |
@@ -47,7 +47,7 @@ Vue 인스턴스에 있는 데이터를 HTML 템플릿에 표현하기 위해 �
 
 ## Text
 
-`{{  }}` 사이에 변수 이름을 입력하면 해당 변수에 해당하는 데이터를 불러와 HTML 이스케이프로 출력된다. HTML 이스케이프란 특정 문자를 HTML로 변환하는 행위이며, `&lt;` 를 입력하면 `<`특수기호가 나오는 현상을 예로 들 수 있다. 
+{{  }} 사이에 변수 이름을 입력하면 해당 변수에 해당하는 데이터를 불러와 HTML 이스케이프로 출력된다. HTML 이스케이프란 특정 문자를 HTML로 변환하는 행위이며, `&lt;` 를 입력하면 `<`특수기호가 나오는 현상을 예로 들 수 있다. 
 
 ```vue
 <p>메시지 : {{ msg }}</p>
@@ -85,7 +85,7 @@ HTML 속성 (id, href, title, src 등...)은 Mustach 구문으로 데이터를 �
 
 ### JavaScript 표현식 
 
-`{{ }}` 구문 안에서 자바스크립트의 모든 표현식 사용이 가능하다.
+{{ }} 구문 안에서 자바스크립트의 모든 표현식 사용이 가능하다.
 
 ```vue
 <p>{{ number }} + 1 = {{ number + 1 }}</p>
@@ -114,7 +114,7 @@ HTML 속성 (id, href, title, src 등...)은 Mustach 구문으로 데이터를 �
 
 ### v-if
 
-`v-if`는 조건부의 true | false 여부에 따라 값을 표현한다. 
+`v-if`는 조건부의 true / false 여부에 따라 값을 표현한다. 
 
 `v-show`와 기능이 비슷하지만, `v-show`의 경우 우선 렌더링이 되고 `display:block;` `display:none;` CSS 속성을 이용해 감추고 보여지는 반면 `v-if`는 제거되었다가 새로 생성된다.
 
