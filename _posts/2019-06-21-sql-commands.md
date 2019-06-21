@@ -17,9 +17,9 @@ tags:
 # [etc] SQL 명령문 정리
 정보처리기사 실기를 공부하면서 2과목 데이터베이스에 나오는 SQL문을 간략하게 정리했다.
 
-<span style="color: tomato;">예시 코드의 대괄호`[]` 는 생략이 가능하다는 표시!</span>
+**예시 코드의 대괄호`[]` 는 생략이 가능하다는 표시!**
 
-
+<br/>
 
 ## DDL
 
@@ -120,7 +120,7 @@ DROP CONSTRAINT 제약조건명;
 
 
 
-
+<br/>
 
 ## SELECT
 
@@ -153,7 +153,7 @@ Month([속성명]) : 속성명의 '월'만 추출
 
 
 
-
+<br/>
 
 ## JOIN
 
@@ -209,7 +209,7 @@ FROM 테이블명1 FULL OUTER JOIN 테이블명2
 ON 테이블명1.속성명 = 테이블명2.속성명;
 ```
 
-
+<br/>
 
 ## DML
 
@@ -243,7 +243,7 @@ SET 속성명=데이터
 WHERE 조건;
 ```
 
-
+<br/>
 
 ## DCL
 
@@ -267,7 +267,7 @@ REVOKE [GRANT OPTION FOR] 권한_리스트 ON 개체 FROM 사용자 [CASCADE];
 
 
 
-
+<br/>
 
 ## Refer
 
