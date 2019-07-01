@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+@import url("top.css");
+@import url("bottom.css");
+
+/*reset*/
+body{
+	font:normal 14px/1.5em bond,sans-serif;
+	color:#333333;
+	background:#ffffff;
+}
+a{
+	color:#333333;
+}
+input{
+	font-family:bond,sans-serif;
+}
+
+/*font*/
+@font-face{
+		font-family:juna;
+		src:url('../font/BMJUA_ttf.ttf');
+}
+@font-face{
+		font-family:bond;
+		src:url('../font/NotoSansCJKkr-DemiLight.otf');
+}
+@font-face{
+		font-family:bonb;
+		src:url('../font/NotoSansCJKkr-Medium.otf');
+}
+
+/*login_wrap*/
+#login_wrap{
+	width:100%;
+	background:url(../images/login/main_bg.jpg) no-repeat center top;
+	background-size: 100% auto;
+	height:670px;
+	padding-top:100px;
+}
+#login{
+	margin:0 auto;
+	width:480px;
+	height:500px;
+	background-color:#ffffff;
+	text-align:center;
+	padding-top:85px;
+}
+#login_top h3{
+	width:151px;
+	height:32px;
+	text-align:center;
+	line-height:32px;
+	margin:0 auto;
+	font-size:36px;
+	font-weight:normal;
+	background:url(../images/login/dot.png) no-repeat;
+	opacity:0;
+}
+#login_top > p{
+	height:44px;
+	font-size:14px;
+	margin-top:15px;
+	color:#999999;
+	letter-spacing:2px;
+	font-weight:normal;
+	background:url(../images/login/line1.png) no-repeat center bottom;
+	opacity:0;
+}
+#login fieldset{
+	width:335px;
+	margin:0 auto;
+	margin-top:43px;
+}
+#login fieldset legend{
+	display:none;
+}
+#u_name{
+	width:333px;
+	height:40px;
+	border:1px solid #cccccc;
+	text-indent:10px;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#u_pwd{
+	width:333px;
+	height:40px;
+	border:1px solid #cccccc;
+	text-indent:10px;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#login_btn{
+	width:335px;
+	height:42px;
+	background-color:#666666;
+	color:#ffffff;
+	font-size:18px;
+	border:none;
+	cursor:pointer;
+}
+#login_btn:hover{
+	background-color:#cc9966;
+}
+
+#id_chk{
+	margin-top:35px;
+	text-align:left;
+}
+#chk1{
+	width:0;
+	height:0;
+	overflow:hidden;
+}
+.type_checkbox1{
+	background:url(../images/login/chk1.png) no-repeat right 0;
+	height:25px;
+	display:inline-block;
+	padding-right:45px;
+	line-height:25px;
+	color:#666666;
+}
+.type_checkbox1.checked{
+	background:url(../images/login/chk2.png) no-repeat right 0;
+}
+#login_bottom{
+	margin-top:33px;
+	padding-top:18px;
+	width:333px;
+	height:33px;
+	background:url(../images/login/line2.png) no-repeat top;
+}
+#login_bottom ul li{
+	color:#996633;
+	float:left;
+	cursor:pointer;
+}
+.btn1{
+	width:100px;
+	text-align:left;
+	background:url(../images/login/line3.png) no-repeat right;
+}
+.btn2{
+	width:143px;
+	text-align:center;
+	background:url(../images/login/line3.png) no-repeat right;
+}
+.btn3{
+	width:90px;
+	text-align:right;
+}

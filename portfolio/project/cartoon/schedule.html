@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <title>카툰네트워크</title>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/top.js"></script>
+  <script src="js/schedule.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+  <link rel="stylesheet" href="css/swiper.min.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/schedule_layout.css" media="all" />
+ </head>
+ <body>
+	<!--//////상단/////-->
+	<header id="top">
+		<div class="box_block top_block">
+			<div class="block12">
+				<div class="all_menu">
+					<a class="menu-trigger" href="#">
+						<span class="menu_t1"> </span>
+						<span class="menu_t2"> </span>
+						<span class="menu_t3"> </span>
+					</a><!--menu-trigger-->
+				</div><!--all_menu 태블릿/모바일-->
+				<div class="menu_wrap">
+					<div class="menu_logwrap">
+						<h3>로그인을 해주세요</h3>
+						<p class="menu_log"><a href="login.html">로그인</a></p>
+						<p class="menu_join"><a href="#">회원가입</a></p>
+					</div>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="program.html">프로그램</a></li>
+						<li class="selected1"><a href="schedule.html">편성표</a></li>
+						<li><a href="video.html">동영상</a></li>
+						<li><a href="event.html">이벤트</a></li>
+						<li><a href="#">SHOP</a></li>
+					</ul>
+				</div><!--menu_wrap 모바일-->
+				<h1><a href="index.html"><img src="images/top/logo.png" alt="카툰네트워크" width="200" height="125"/></a><span>편성표</span></h1><!--로고 데스크탑/태블릿/모바일-->
+				<div class="m_login">
+					<a href="#"><img src="images/top/login_m.png" alt="로그인" width="40" height="40"/></a>
+				</div><!--m_login 모바일-->
+				<nav id="main_menu">
+					<ul>
+						<li><a href="program.html">프로그램</a></li>
+						<li><a href="schedule.html">편성표</a></li>
+						<li><a href="video.html">동영상</a></li>
+						<li><a href="event.html">이벤트</a></li>
+						<li><a href="#">SHOP</a></li>
+					</ul>
+				</nav><!--main_menu 데스크탑-->
+				<ul class="quick">
+					<li><a href="login.html" class="quick_login">로그인</a></li>
+					<li><a href="#" class="quick_join">회원가입</a></li>
+				</ul><!--quick 데스크탑-->
+			</div><!--block12-->
+		</div><!--box_block top_block-->
+	</header><!--top-->
+
+	<!--//////배너//////-->
+	<div class="banner_box">
+	<div class="box_block">
+		<div class="block12">
+			<article id="banner">
+				<div class="banner_txt">
+					<h2>편성표</h2>
+					<p class="ban_txt">매일매일 새로운 카툰네트워크를 만나보세요</p>
+					<div class="banner_ul">
+						<div class="frame" id="centered">
+						<ul class="clearfix">
+							<li class="ban_1"><span>11.06</span><br />월</li>
+							<li class="ban_1"><span>11.07</span><br />화</li>
+							<li class="ban_1"><span>11.08</span><br />수</li>
+							<li class="ban_1 ban_sel"><span>11.09</span><br />목</li>
+							<li class="ban_1"><span>11.10</span><br />금</li>
+							<li class="ban_1"><span>11.11</span><br />토</li>
+							<li class="ban_1"><span>11.12</span><br />일</li>
+						</ul>
+						</div>
+					</div><!--banner_ul 데스크탑/태블릿-->
+					<div class="swiper-container banner_ul2">
+						<div class="swiper-wrapper banner_wrap">
+						  <div class="swiper-slide ban_1"><span>11.06</span><br />월</div>
+						  <div class="swiper-slide ban_1"><span>11.07</span><br />화</div>
+						  <div class="swiper-slide ban_1 ban_sel"><span>11.08</span><br />수</div>
+						  <div class="swiper-slide ban_1"><span>11.09</span><br />목</div>
+						  <div class="swiper-slide ban_1"><span>11.10</span><br />금</div>
+						  <div class="swiper-slide ban_1"><span>11.11</span><br />토</div>
+						  <div class="swiper-slide ban_1"><span>11.12</span><br />일</div>
+						  <div class="swiper-slide ban_1"><span>11.13</span><br />월</div>
+						  <div class="swiper-slide ban_1"><span>11.14</span><br />화</div>
+						  <div class="swiper-slide ban_1"><span>11.15</span><br />수</div>
+						  <div class="swiper-slide ban_1"><span>11.16</span><br />목</div>
+						</div>
+					</div><!--swiper-container banner_ul2 모바일-->
+				</div><!--banner_txt-->
+			</article><!--banner 데스크탑/태블릿/모바일-->
+			</div><!--banner_box-->
+		</div><!--block12-->
+	</div><!--box_block-->
+	<div class="box_block">
+		<div class="box12">
+			<div class="sch_info">
+				<ul>
+					<li><a href="#" class="sch4_1">전체</a><span>전체시청가</span></li>
+					<li><a href="#" class="sch4_3">7세</a><span>7세 이상 시청가</span></li>
+					<li><a href="#" class="sch4_2">12세</a><span>12세 이상 시청가</span></li>
+					<li><a href="#" class="sch4_5">NEW</a><span>첫방송</span></li>
+					<li><a href="#" class="sch4_4">ABC</a><span>음성다중</span></li>
+				</ul>
+			</div><!--sch_info 데스크탑/태블릿-->
+		</div><!--block12-->
+	</div><!--box_block-->
+	<!--//////편성표//////-->
+	<div id="schedule_block">
+		<div class="box_block">
+			<div class="box12">
+				<div id="schedule">
+					<table id="schedule_tb">
+							<caption>편성표</caption>
+							<tr>
+								<td class="sch1">11:00</td>
+								<td class="sch2">위 베어 베어스 : 곰 브라더스<br /><span class="sch_span">009편 최고의 푸드트럭</span></td>
+								<td class="sch3">009편 최고의 푸드트럭</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">11:30</td>
+								<td class="sch2">위 베어 베어스 : 곰 브라더스<br /><span class="sch_span">010편 자연속으로</span></td>
+								<td class="sch3">010편 자연속으로</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">12:00</td>
+								<td class="sch2">톰과 제리 쇼 2017 리턴즈<br /><span class="sch_span">044편 알프레도 살빼기</span></td>
+								<td class="sch3">044편 알프레도 살빼기</td>
+								<td class="sch4"><a href="#" class="sch4_2">12세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">12:30</td>
+								<td class="sch2">톰과 제리 쇼 2017 리턴즈<br /><span class="sch_span">034편 귀여운 도둑</span></td>
+								<td class="sch3">034편 귀여운 도둑</td>
+								<td class="sch4"><a href="#" class="sch4_2">12세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">13:00</td>
+								<td class="sch2">애니메이션 런닝맨<br /><span class="sch_span">024편 3차전 피라미드 추격레이스 1</span></td>
+								<td class="sch3">024편 3차전 피라미드 추격레이스 1</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">13:30</td>
+								<td class="sch2">애니메이션 런닝맨<br /><span class="sch_span">024편 3차전 피라미드 추격레이스 2</span></td>
+								<td class="sch3">024편 3차전 피라미드 추격레이스 2</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+							<tr class="onair">
+								<td class="sch1">14:00</td>
+								<td class="sch2">핀과 제이크의 어드벤처 타임<br /><span class="sch_span">078편 코카손 할머니의 모험</span></td>
+								<td class="sch3">078편 코카손 할머니의 모험</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">14:30</td>
+								<td class="sch2">핀과 제이크의 어드벤처 타임<br /><span class="sch_span">079편 돌아와, 리카르디오!</span></td>
+								<td class="sch3">079편 돌아와, 리카르디오!</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">15:00</td>
+								<td class="sch2">엉클 그랜파<br /><span class="sch_span">071편 화가 난 이빨 요정</span></td>
+								<td class="sch3">071편 화가 난 이빨 요정</td>
+								<td class="sch4"><a href="#" class="sch4_4">ABC</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">15:30</td>
+								<td class="sch2">엉클 그랜파<br /><span class="sch_span">072편 엉클 그랜파 로봇</span></td>
+								<td class="sch3">072편 엉클 그랜파 로봇</td>
+								<td class="sch4"><a href="#" class="sch4_4">ABC</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">16:00</td>
+								<td class="sch2">위 베어 베어스 : 곰 브라더스<br /><span class="sch_span">009편 최고의 푸드트럭</span></td>
+								<td class="sch3">009편 최고의 푸드트럭</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">16:30</td>
+								<td class="sch2">위 베어 베어스 : 곰 브라더스<br /><span class="sch_span">010편 자연속으로</span></td>
+								<td class="sch3">010편 자연속으로</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">17:00</td>
+								<td class="sch2">터닝메카드 W<br /><span class="sch_span">001편 놀라운 미래 세계</span></td>
+								<td class="sch3">001편 놀라운 미래 세계</td>
+								<td class="sch4"><a href="#" class="sch4_5">NEW</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">17:30</td>
+								<td class="sch2">터닝메카드 W<br /><span class="sch_span">002편 윙라이온과 카이온을 찾아라</span></td>
+								<td class="sch3">002편 윙라이온과 카이온을 찾아라</td>
+								<td class="sch4"><a href="#" class="sch4_5">NEW</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">18:00</td>
+								<td class="sch2">변신자동차 또봇<br /><span class="sch_span">019편 유진, 훤빈을 만나다</span></td>
+								<td class="sch3">019편 유진, 훤빈을 만나다</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">18:30</td>
+								<td class="sch2">변신자동차 또봇<br /><span class="sch_span">024편 출동! 도운, 리모, 네옹</span></td>
+								<td class="sch3">024편 출동! 도운, 리모, 네옹</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">19:00</td>
+								<td class="sch2">마법 천자문 시즌2<br /><span class="sch_span">003편 	여의필을 되살려라!</span></td>
+								<td class="sch3">003편 	여의필을 되살려라!</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">19:30</td>
+								<td class="sch2">마법 천자문 시즌2<br /><span class="sch_span">004편 잊혀진 기억</span></td>
+								<td class="sch3">004편 잊혀진 기억</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+						</table><!--schedule_tb-->
+				</div><!--schedule 데스크탑/태블릿/모바일-->
+			</div><!--box12-->
+	</div><!--box_block-->
+	</div><!--schedule_block-->
+
+	<!--//////하단//////-->
+	<footer id="bottom">
+		<div class="bottom_wrap1">
+			<div class="box_block bottom_block1">
+				<div class="block12">
+					<ul class="bottom_menu">
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">사이트맵</a></li>
+						<li><a href="#">전체편성표</a></li>
+						<li><a href="#">광고문의</a></li>
+						<li><a href="#">ENGLISH</a></li>
+					</ul><!--bottom_menu-->
+				</div><!--block12-->
+			</div><!--box_block bottom_block1-->
+		</div><!--bottom_wrap1 하단/데스크탑-->
+
+		<div class="bottom_wrap3">
+			<div class="box_block bottom_block1">
+				<div class="block12">
+					<ul class="bottom_menu">
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">PC버전</a></li>
+						<li><a href="#">사이트맵</a></li>
+					</ul><!--bottom_menu-->
+				</div><!--block12-->
+			</div><!--box_block bottom_block1-->
+		</div><!--bottom_wrap1 하단/태블릿/모바일-->
+
+		<div class="bottom_wrap2">
+		<div class="box_block bottom_block2">
+			<div class="block12">
+				<div class="bottom_r">
+					<p>2010 Turner Breadcasting Systen, Inc. A Time Warner Company. <br />2015 Cartoon Network. A Timeworker Company
+					<br /><span>Copyright &copy; Cartoon Network.All Rights Reserved</span></p><!--데스크탑/태블릿-->
+				</div><!--bottom_r-->
+			</div><!--block12-->
+		</div><!--box_block bottom_block2-->
+		</div><!--bottom_wrap2-->
+	</footer><!--bottom-->
+
+ </body>
+</html>

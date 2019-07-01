@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>로그인</title>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/top.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function(){
+			$("input[type=checkbox]").customizeCRInput();
+		});
+  </script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/login_layout.css" media="all" />
+ </head>
+ <body>
+	<!--//////상단/////-->
+	<div id="top">
+		<div id="top1">
+			<h1><a href="index.html"><img src="images/top/logo_img.png" alt="설빙아이콘" width="200" height="79"/></a></h1>
+		</div><!--top1-->
+	<header>
+		<div id="top2">
+			<ul class="sns">
+				<li><a href="#"><img src="images/top/sns5.png" alt="트위터" width="20" height="40"/></a></li>
+				<li><a href="#"><img src="images/top/sns6.png" alt="페이스북" width="20" height="40"/></a></li>
+				<li><a href="#"><img src="images/top/sns7.png" alt="인스타그램" width="20" height="40"/></a></li>
+			</ul><!--sns-->
+		<div id="menu_fix">
+		<p class="logo"><a href="index.html"><img src="images/top/logo_img2.png" alt="설빙아이콘" width="100" height="40"/></a></p><!--logo-->
+		<nav id="main_nav">
+			<ul id="nav_ul">
+				<li><a href="intro.html" class="menu1">설빙소개</a><span class="line1"></span>
+					<ul class="sub sub1">
+						<li><a href="intro.html">CEO인사말</a></li>
+						<li><a href="intro.html">타임라인</a></li>
+						<li><a href="intro.html">탄생 이야기</a></li>
+						<li><a href="intro.html">설빙 B.I</a></li>
+						<li><a href="intro.html">채용안내</a></li>
+					</ul>
+				</li><!--설빙소개-->
+				<li><a href="menu_pop.html" class="menu2">메뉴</a><span class="line2"></span>
+					<ul class="sub sub2">
+						<li><a href="menu_pop.html">설빙</a></li>
+						<li><a href="menu_pop.html">주전부리</a></li>
+						<li><a href="menu_pop.html">열매한잔</a></li>
+						<li><a href="menu_pop.html">커피</a></li>
+					</ul>
+				</li><!--메뉴-->
+				<li><a href="event.html" class="menu3">이벤트/뉴스</a><span class="line3"></span>
+					<ul class="sub sub3">
+						<li><a href="event.html">진행중 이벤트</a></li>
+						<li><a href="event.html">지난 이벤트</a></li>
+						<li><a href="event.html">공지사항</a></li>
+					</ul>
+				</li><!--이벤트-->
+				<li><a href="franchise.html" class="menu4">가맹문의</a><span class="line4"></span>
+					<ul class="sub sub4">
+						<li><a href="franchise.html">인테리어</a></li>
+						<li><a href="franchise.html">개설절차</a></li>
+						<li><a href="franchise.html">경영주 공지사항</a></li>
+						<li><a href="franchise.html">경영주 1:1 문의</a></li>
+						<li><a href="franchise.html">마케팅 제안</a></li>
+					</ul>
+				</li><!--프랜차이즈-->
+				<li><a href="store.html" class="menu5">매장찾기</a><span class="line5"></span>
+					<ul class="sub sub5">
+						<li><a href="store.html">매장찾기</a></li>
+						<li><a href="store.html">신규 오픈매장</a></li>
+						<li><a href="store.html">글로벌 설빙</a></li>
+					</ul>
+				</li><!--매장찾기-->
+				<li><a href="faq.html" class="menu6">고객센터</a><span class="line6"></span>
+					<ul class="sub sub6">
+						<li><a href="faq.html">고객의 소리</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+					</ul>
+				</li><!--고객센터-->
+			</ul><!--nav_ul-->
+		</nav><!--main_nav-->
+		<div id="quick_wrap">
+				<ul class="quick">
+					<li class="quick_login"><a href="login.html">로그인</a></li>
+					<li class="quick_join"><a href="join.html">회원가입</a></li>
+					<li class="lang_li"><a href="#">KOR</a>
+						<ul>
+							<li><a href="#">ENG</a></li>
+						</ul>
+					</li>
+				</ul><!--quick-->
+			</div><!--quick_wrap-->
+		</div><!--top2-->
+		</div><!--menu_fix-->
+	</header>
+	</div><!--top-->
+	<!--//////상단 끝//////-->
+
+	<!--//////메인//////-->
+	<div id="login_wrap">
+		<div id="login">
+			<form action="login.asp" method="post">
+				<div id="login_top">
+				<h3>로그인</h3>
+				<p>MEMBER LOGIN</p>
+				</div><!--login_top-->
+				<fieldset>
+					<legend>회원 로그인</legend>
+					<input type="text" id="u_name" required placeholder="아이디 입력"/>
+					<input type="password" id="u_pwd" required placeholder="비밀번호 입력"/>
+					<input type="submit" value="로그인" id="login_btn"/>
+					<p id="id_chk">
+						<label for="chk1" class="type_checkbox1">아이디 저장</label><input type="checkbox" name="chk1" value="1" id="chk1"/>
+					</p><!--id_chk-->
+					<div id="login_bottom">
+						<ul>
+							<li class="btn1">아이디 찾기</li>
+							<li class="btn2">비밀번호 찾기</li>
+							<li class="btn3">회원가입</li>
+						</ul>
+					</div><!--login_bottom-->
+				</fieldset>
+			</form>
+		</div><!--login-->
+	</div><!--login_wrap-->
+	<div id="bottom_wrap">
+		<footer>
+			<ul>
+				<li><a href="#">가맹점개설문의</a></li>
+				<li><a href="#">채용문의</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">거래희망회사 사전등록</a></li>
+			</ul>
+		</footer>
+		<div class="address_wrap">
+			<h3><a href="#"><img src="images/bottom/logo_gray.png" alt="설빙 로고" width="80" height="80"/></a></h3>
+			<address>법인: (주)설빙  |  사업자등록번호: 602-81-62460 [사업자정보확인] <br />
+			본사주소 : 서울시 강남구 테헤란로 443 애플트리타워 12/13층  |  대표번호 : 02-3401-7900 ｜ 팩스 : 02-447-8755 <br />
+			<strong>COPYRIGHT(C) SULBING 2013 ALL RIGHTS RESERVED.</strong></address>
+		</div><!--address_wrap-->
+	</div><!--bottom_wrap-->
+ </body>
+</html>

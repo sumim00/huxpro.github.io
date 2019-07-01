@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <title>카툰네트워크</title>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/top.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/youtube_play.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="all" />
+  <link rel="stylesheet" href="css/swiper.min.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/index_layout.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/youtube_play.css" media="all" />
+  <script type="text/javascript">
+ 	 $(document).ready(function(){
+ 		 $('.bxslider').bxSlider();
+ 	 });
+  </script>
+ </head>
+ <body>
+   <!--video-->
+   <div id="youtube-wrap" class="lightbox" onclick="hideVideo('youtube-wrap','youtube')">
+     <div class="lightbox-container">
+       <div class="lightbox-content">
+
+         <button onclick="hideVideo('youtube-wrap','youtube')" class="lightbox-close">
+           <img src="images/video/b_cancle.png" alt="닫기">
+         </button>
+         <div class="video-container">
+           <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/OwixFDCyKVs" allowfullscreen></iframe>
+         </div>
+       </div>
+     </div>
+   </div>
+
+	<!--//////상단/////-->
+	<header id="top">
+		<div class="box_block top_block">
+			<div class="block12">
+				<div class="allmenu_wrap">
+				<div class="all_menu">
+					<a class="menu-trigger" href="#">
+						<span class="menu_t1"> </span>
+						<span class="menu_t2"> </span>
+						<span class="menu_t3"> </span>
+					</a><!--menu-trigger-->
+				</div><!--all_menu 태블릿/모바일-->
+				<div class="menu_wrap">
+					<div class="menu_logwrap">
+						<h3>로그인을 해주세요</h3>
+						<p class="menu_log"><a href="login.html">로그인</a></p>
+						<p class="menu_join"><a href="#">회원가입</a></p>
+					</div>
+					<ul>
+						<li class="selected1"><a href="index.html" >HOME</a></li>
+						<li><a href="program.html">프로그램</a></li>
+						<li><a href="schedule.html">편성표</a></li>
+						<li><a href="video.html">동영상</a></li>
+						<li><a href="event.html">이벤트</a></li>
+						<li><a href="#">SHOP</a></li>
+					</ul>
+				</div><!--menu_wrap 모바일-->
+				</div><!--allmenu_wrap-->
+				<h1><a href="index.html"><img src="images/top/logo.png" alt="카툰네트워크" width="200" height="125"/></a><span><img src="images/top/logo.png" alt="카툰네트워크" ></span></h1><!--로고 데스크탑/태블릿/모바일-->
+				<div class="m_login">
+					<a href="#"><img src="images/top/login_m.png" alt="로그인" width="40" height="40"/></a>
+				</div><!--m_login 모바일-->
+				<nav id="main_menu">
+					<ul>
+						<li><a href="program.html">프로그램</a></li>
+						<li><a href="schedule.html">편성표</a></li>
+						<li><a href="video.html">동영상</a></li>
+						<li><a href="#">이벤트</a></li>
+						<li><a href="#">SHOP</a></li>
+					</ul>
+				</nav><!--main_menu 데스크탑-->
+				<ul class="quick">
+					<li><a href="login.html" class="quick_login">로그인</a></li>
+					<li><a href="#" class="quick_join">회원가입</a></li>
+				</ul><!--quick 데스크탑-->
+			</div><!--block12-->
+		</div><!--box_block top_block-->
+	</header><!--top-->
+
+	<!--//////배너//////-->
+		<div class="slider">
+			<div class="m_slide1">
+				<div class="slide_txt">
+					<h2>스티븐 유니버스</h2>
+					<p class="ban_txt">지구를 위해 마법 미션들을 헤쳐 나가는<br />
+					스티븐 유니버스 친구들의 신나는 모험이 펼쳐진다!
+					<p class="ban_btn"><a href="program.html">자세히 보기</a></p>
+				</div><!--slide_txt-->
+			</div><!--slide1-->
+			<div class="m_slide2">
+				<div class="slide_txt">
+					<h2>핀과 제이크의 어드벤쳐 타임</h2>
+					<p class="ban_txt">지금은 무슨 시간?<br />
+					판타지 세계 우 랜드에서 일어나는 신기한 이야기에 빠져보자!
+					<p class="ban_btn"><a href="program.html">자세히 보기</a></p>
+				</div><!--slide_txt-->
+			</div><!--slide2-->
+			<div class="m_slide3">
+				<div class="slide_txt">
+					<h2>오버 더 가든 월</h2>
+					<p class="ban_txt">공동묘지 뒷편에 숨겨진 공간이?<br />
+					워트와 그렉 형제가 선사하는 신비한 모험이야기
+					<p class="ban_btn"><a href="program.html">자세히 보기</a></p>
+				</div><!--slide_txt-->
+			</div><!--slide3-->
+		</div><!--slider-->
+
+
+	<!--//////캐릭터//////-->
+	<div class="box_block">
+		<div class="block12 program_wrap">
+			<article id="program">
+				<h2 class="title_txt">캐릭터</h2>
+					<div class="swiper-container pro_container">
+						<div class="swiper-wrapper  pro_wrap">
+							<div class="swiper-slide"><a href="program.html" class="charactor1"><img src="images/main/charactor1.png" alt="어드벤쳐타임" width="120" height="240"/></a><br /><span>어드벤쳐 타임</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor2"><img src="images/main/charactor2.png" alt="위베어베어스" width="120" height="240"/></a><br /><span>위 베어 베어스</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor3"><img src="images/main/charactor3.png" alt="슈퍼히어로걸즈" width="120" height="240"/></a><br /><span>슈퍼 히어로 걸즈</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor1"><img src="images/main/charactor4.png" alt="소피루비" width="120" height="240"/></a><br /><span>소피루비</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor2"><img src="images/main/charactor5.png" alt="마이리틀포니" width="120" height="240"/></a><br /><span>마이 리틀 포니</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor3"><img src="images/main/charactor6.png" alt="스티븐유니버스" width="120" height="240"/></a><br /><span>스티븐 유니버스</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor1"><img src="images/main/charactor1.png" alt="어드벤쳐타임" width="120" height="240"/></a><br /><span>어드벤쳐 타임</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor2"><img src="images/main/charactor2.png" alt="위베어베어스" width="120" height="240"/></a><br /><span>위 베어 베어스</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor3"><img src="images/main/charactor3.png" alt="슈퍼히어로걸즈" width="120" height="240"/></a><br /><span>슈퍼 히어로 걸즈</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor1"><img src="images/main/charactor4.png" alt="소피루비" width="120" height="240"/></a><br /><span>소피루비</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor2"><img src="images/main/charactor5.png" alt="마이리틀포니" width="120" height="240"/></a><br /><span>마이 리틀 포니</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor3"><img src="images/main/charactor6.png" alt="스티븐유니버스" width="120" height="240"/></a><br /><span>스티븐 유니버스</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor1"><img src="images/main/charactor1.png" alt="어드벤쳐타임" width="120" height="240"/></a><br /><span>어드벤쳐 타임</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor2"><img src="images/main/charactor2.png" alt="위베어베어스" width="120" height="240"/></a><br /><span>위 베어 베어스</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor3"><img src="images/main/charactor3.png" alt="슈퍼히어로걸즈" width="120" height="240"/></a><br /><span>슈퍼 히어로 걸즈</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor1"><img src="images/main/charactor4.png" alt="소피루비" width="120" height="240"/></a><br /><span>소피루비</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor2"><img src="images/main/charactor5.png" alt="마이리틀포니" width="120" height="240"/></a><br /><span>마이 리틀 포니</span></div>
+							<div class="swiper-slide"><a href="program.html" class="charactor3"><img src="images/main/charactor6.png" alt="스티븐유니버스" width="120" height="240"/></a><br /><span>스티븐 유니버스</span></div>
+						</div>
+						<div class="swiper-pagination pro_page"></div>
+						<div class="swiper-button-next pro_next"></div>
+						<div class="swiper-button-prev pro_prev"></div>
+					</div>
+			</article><!--program program_wrap 데스크탑/태블릿/모바일-->
+		</div><!--block12-->
+	</div><!--box_block-->
+
+	<div id="schedule_block">
+		<div class="box_block">
+			<div class="box12">
+				<div id="schedule">
+					<h2>TV 편성표</h2>
+					<table id="schedule_tb">
+							<caption>편성표</caption>
+							<tr>
+								<td class="sch1">11:00</td>
+								<td class="sch2">위 베어 베어스 : 곰 브라더스</td>
+								<td class="sch3">009편 최고의 푸드트럭</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">11:30</td>
+								<td class="sch2">위 베어 베어스 : 곰 브라더스</td>
+								<td class="sch3">010편 자연속으로</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr class="onair">
+								<td class="sch1">12:30</td>
+								<td class="sch2">톰과 제리 쇼 2017 리턴즈</td>
+								<td class="sch3">044편 알프레도 살빼기</td>
+								<td class="sch4"><a href="#" class="sch4_2">12세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">13:00</td>
+								<td class="sch2">톰과 제리 쇼 2017 리턴즈</td>
+								<td class="sch3">034편 귀여운 도둑</td>
+								<td class="sch4"><a href="#" class="sch4_2">12세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">13:00</td>
+								<td class="sch2">애니메이션 런닝맨</td>
+								<td class="sch3">024편 3차전 피라미드 추격레이스 1</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">13:00</td>
+								<td class="sch2">애니메이션 런닝맨</td>
+								<td class="sch3">024편 3차전 피라미드 추격레이스 2</td>
+								<td class="sch4"><a href="#" class="sch4_3">7세</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">13:00</td>
+								<td class="sch2">핀과 제이크의 어드벤처 타임</td>
+								<td class="sch3">078편 코카손 할머니의 모험</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+							<tr>
+								<td class="sch1">13:00</td>
+								<td class="sch2">핀과 제이크의 어드벤처 타임</td>
+								<td class="sch3">079편 돌아와, 리카르디오!</td>
+								<td class="sch4"><a href="#" class="sch4_1">전체</a></td>
+							</tr>
+						</table><!--schedule_tb-->
+				</div><!--schedule 데스크탑/태블릿/모바일-->
+			</div><!--box12-->
+	</div><!--box_block-->
+	</div><!--schedule_block-->
+
+	<!--인기 프로그램-->
+	<div class="best_box">
+			<div id="best">
+				<h2>인기 프로그램</h2>
+				<div class="swiper-container best_con">
+				<ul class="swiper-wrapper best_wrap">
+					<li class="swiper-slide b_slide1">
+						<div class="slide_on">
+							<h4>어드벤쳐 타임</h4>
+							<p>영웅이 되고 싶은 소년 핀과 그의 친구 제이크<br /><span>오늘도 우랜드를 구하기 위한 핀과 제이크의 모험이 시작된다!</span></p>
+							<p class="btn_bg"><a href="program.html">자세히 보기</a></p>
+						</div><!--btn_on-->
+					</li><!--slide1-->
+					<li class="swiper-slide b_slide2">
+						<div class="slide_on">
+							<h4>슈퍼 히어로 걸즈</h4>
+							<p>슈퍼히어로 고등학교에 입학한 초보 영웅 슈퍼걸<br /><span>과연 슈퍼걸은 진정한 히어로로 거듭날 수 있을까?</span></p>
+							<p class="btn_bg"><a href="program.html">자세히 보기</a></p>
+						</div><!--btn_on-->
+					</li><!--slide2-->
+					<li class="swiper-slide b_slide3">
+						<div class="slide_on">
+							<h4>위 베어 베어스</h4>
+							<p>복잡한 도시에서 사람들과 어울리기 위해 애쓰는 곰 삼형제<br /><span>새 친구들을 만날 수만 있다면 어떤 모험이든 좋아!</span></p>
+							<p class="btn_bg"><a href="program.html">자세히 보기</a></p>
+						</div><!--btn_on-->
+					</li><!--slide3-->
+					<li class="swiper-slide b_slide4">
+						<div class="slide_on">
+							<h4>마이 리틀 포니</h4>
+							<p>호기심 많고 사랑스러운 유니콘 트와일라잇<br /><span>친구들과 힘을 모아 사악한 나이트메어 문을 무찌르자!</span></p>
+							<p class="btn_bg"><a href="program.html">자세히 보기</a></p>
+						</div><!--btn_on-->
+					</li><!--slide4-->
+					<li class="swiper-slide b_slide5">
+						<div class="slide_on">
+							<h4>스티븐 유니버스</h4>
+							<p>별을 수호하는 보석 잼스톤을 지켜야 해!<br /><span>지구 수호를 위한 스티븐 유니버스의 신나는 모험이 펼쳐진다!</span></p>
+							<p class="btn_bg"><a href="program.html">자세히 보기</a></p>
+						</div><!--btn_on-->
+					</li><!--slide5-->
+				</ul>
+				</div><!--best con-->
+			</div><!--best 데스크탑/태블릿/모바일-->
+	</div><!--bext_box-->
+
+
+	<!--인기 동영상-->
+	<div id="video_block">
+	<div class="box_block">
+			<div id="video">
+				<h2>인기 동영상</h2>
+				<div class="block3 block3_1">
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img1.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/OwixFDCyKVs')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">슈퍼 히어로 걸즈<span>24화 포이즌 아이비의 고민</span></h4>
+						<p class="video_4">41,230</p>
+					</div><!--video_txt-->
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img2.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/OwixFDCyKVs')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">위 베어 베어스<span>2화 푸드트럭을 만들어요</span></h4>
+						<p class="video_4">40,992</p>
+					</div><!--video_txt-->
+				</div><!--block3 block3_1-->
+				<div class="block3 block3_2">
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img3.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/HRAdliWSFAs')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">어드벤쳐 타임<span>시즌 6 2화 숨겨진 성을 찾아서</span></h4>
+						<p class="video_4">35,692</p>
+					</div><!--video_txt-->
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img4.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/OwixFDCyKVs')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">마이리틀포니<span>34화 사이좋은 친구</span></h4>
+						<p class="video_4">30,901</p>
+					</div><!--video_txt-->
+				</div><!--block3 block3_2-->
+				<div class="block3 block3_3">
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img5.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/OwixFDCyKVs')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">소피루비<span>1화 내 이름은 소피, 루비!</span></h4>
+						<p class="video_4">27,660</p>
+					</div><!--video_txt-->
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img6.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/OwixFDCyKVs')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">슈퍼 히어로 걸즈 <span>17화 아테나를 찾아라</span></h4>
+						<p class="video_4">25,769</p>
+					</div><!--video_txt-->
+				</div><!--block3 block3_3-->
+				<div class="block3 block3_4">
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img7.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/gCK2PgMwopM')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">파워퍼프걸<span>8화 슈퍼퍼프걸의 등장</span></h4>
+						<p class="video_4">18,007</p>
+					</div><!--video_txt-->
+					<p class="video_img">
+						<em>bg</em>
+						<img src="images/main/video_img8.jpg" alt="비디오1"/>
+            <button class="video_btn" onclick="revealVideo('youtube-wrap','youtube','https://www.youtube.com/embed/X-0vZeaIrFg')"><img src="images/main/play_btn1.png" alt="재생버튼"></button>
+					</p>
+					<div class="video_txt">
+						<h4 class="video_3">오버 더 가든 월<span>3화 그렉의 녹색 개구리</span></h4>
+						<p class="video_4">17,201</p>
+					</div><!--video_txt-->
+				</div><!--block3 block3_4-->
+			</div><!--video 데스크탑/태블릿/모바일-->
+
+	</div><!--box_block-->
+	</div><!--video_block-->
+
+	<div class="cnshop_block">
+		<div class="box_block">
+			<div class="block12">
+				<div id="cnshop">
+					<h4>에서 쇼핑하자!</h4>
+					<p class="cnshop_txt">핀과 제이크부터 사랑스런 곰 삼형제까지
+					<br />카툰 네트워크 친구들을 지금 온라인샵에서 만나보세요</p>
+					<p class="cnshop_btn"><a href="#">자세히 보기</a></p>
+				</div><!--cnshop 데스크탑/태블릿/모바일-->
+			</div><!--block12-->
+		</div><!--box_block-->
+	</div><!--cnshop_block-->
+
+	<!--//////하단//////-->
+	<footer id="bottom">
+		<div class="bottom_wrap1">
+			<div class="box_block bottom_block1">
+				<div class="block12">
+					<ul class="bottom_menu">
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">사이트맵</a></li>
+						<li><a href="#">전체편성표</a></li>
+						<li><a href="#">광고문의</a></li>
+						<li><a href="#">ENGLISH</a></li>
+					</ul><!--bottom_menu-->
+				</div><!--block12-->
+			</div><!--box_block bottom_block1-->
+		</div><!--bottom_wrap1 하단/데스크탑-->
+
+		<div class="bottom_wrap3">
+			<div class="box_block bottom_block1">
+				<div class="block12">
+					<ul class="bottom_menu">
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">PC버전</a></li>
+						<li><a href="#">사이트맵</a></li>
+					</ul><!--bottom_menu-->
+				</div><!--block12-->
+			</div><!--box_block bottom_block1-->
+		</div><!--bottom_wrap1 하단/태블릿/모바일-->
+
+		<div class="bottom_wrap2">
+		<div class="box_block bottom_block2">
+			<div class="block12">
+				<div class="bottom_r">
+					<p>2010 Turner Breadcasting Systen, Inc. A Time Warner Company. <br />2015 Cartoon Network. A Timeworker Company
+					<br /><span>Copyright &copy; Cartoon Network.All Rights Reserved</span></p><!--데스크탑/태블릿-->
+				</div><!--bottom_r-->
+			</div><!--block12-->
+		</div><!--box_block bottom_block2-->
+		</div><!--bottom_wrap2-->
+	</footer><!--bottom-->
+
+ </body>
+</html>

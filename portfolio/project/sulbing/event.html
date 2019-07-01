@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>이벤트</title>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/event.js"></script>
+  <script src="js/top.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/event_layout.css" media="all" />
+  <script>
+	window.counter = function() {
+		// this refers to the html element with the data-scroll-showCallback tag
+		var span = this.querySelector('span');
+		var current = parseInt(span.textContent);
+
+		span.textContent = current + 1;
+	};
+
+	document.addEventListener('DOMContentLoaded', function(){
+	  var trigger = new ScrollTrigger({
+		  addHeight: true
+	  });
+	});
+
+ </script>
+ </head>
+ <body>
+	 <!--//////상단/////-->
+	<div id="top">
+		<div id="top1">
+			<h1><a href="index.html"><img src="images/top/logo_img.png" alt="설빙아이콘" width="200" height="79"/></a></h1>
+		</div><!--top1-->
+	<header>
+		<div id="top2">
+			<ul class="sns">
+				<li><a href="#"><img src="images/top/sns5.png" alt="트위터" width="20" height="40"/></a></li>
+				<li><a href="#"><img src="images/top/sns6.png" alt="페이스북" width="20" height="40"/></a></li>
+				<li><a href="#"><img src="images/top/sns7.png" alt="인스타그램" width="20" height="40"/></a></li>
+			</ul><!--sns-->
+		<div id="menu_fix">
+		<p class="logo"><a href="index.html"><img src="images/top/logo_img2.png" alt="설빙아이콘" width="100" height="40"/></a></p><!--logo-->
+		<nav id="main_nav">
+			<ul id="nav_ul">
+				<li><a href="intro.html" class="menu1">설빙소개</a><span class="line1"></span>
+					<ul class="sub sub1">
+						<li><a href="intro.html">CEO인사말</a></li>
+						<li><a href="intro.html">타임라인</a></li>
+						<li><a href="intro.html">탄생 이야기</a></li>
+						<li><a href="intro.html">설빙 B.I</a></li>
+						<li><a href="intro.html">채용안내</a></li>
+					</ul>
+				</li><!--설빙소개-->
+				<li><a href="menu_pop.html" class="menu2">메뉴</a><span class="line2"></span>
+					<ul class="sub sub2">
+						<li><a href="menu_pop.html">설빙</a></li>
+						<li><a href="menu_pop.html">주전부리</a></li>
+						<li><a href="menu_pop.html">열매한잔</a></li>
+						<li><a href="menu_pop.html">커피</a></li>
+					</ul>
+				</li><!--메뉴-->
+				<li><a href="event.html" class="menu3 selected1">이벤트/뉴스</a><span class="line3"></span>
+					<ul class="sub sub3">
+						<li><a href="event.html">진행중 이벤트</a></li>
+						<li><a href="event.html">지난 이벤트</a></li>
+						<li><a href="event.html">공지사항</a></li>
+					</ul>
+				</li><!--이벤트-->
+				<li><a href="franchise.html" class="menu4">가맹문의</a><span class="line4"></span>
+					<ul class="sub sub4">
+						<li><a href="franchise.html">인테리어</a></li>
+						<li><a href="franchise.html">개설절차</a></li>
+						<li><a href="franchise.html">경영주 공지사항</a></li>
+						<li><a href="franchise.html">경영주 1:1 문의</a></li>
+						<li><a href="franchise.html">마케팅 제안</a></li>
+					</ul>
+				</li><!--프랜차이즈-->
+				<li><a href="store.html" class="menu5">매장찾기</a><span class="line5"></span>
+					<ul class="sub sub5">
+						<li><a href="store.html">매장찾기</a></li>
+						<li><a href="store.html">신규 오픈매장</a></li>
+						<li><a href="store.html">글로벌 설빙</a></li>
+					</ul>
+				</li><!--매장찾기-->
+				<li><a href="faq.html" class="menu6">고객센터</a><span class="line6"></span>
+					<ul class="sub sub6">
+						<li><a href="faq.html">고객의 소리</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+					</ul>
+				</li><!--고객센터-->
+			</ul><!--nav_ul-->
+		</nav><!--main_nav-->
+		<div id="quick_wrap">
+				<ul class="quick">
+					<li class="quick_login"><a href="login.html">로그인</a></li>
+					<li class="quick_join"><a href="join.html">회원가입</a></li>
+					<li class="lang_li"><a href="#">KOR</a>
+						<ul>
+							<li><a href="#">ENG</a></li>
+						</ul>
+					</li>
+				</ul><!--quick-->
+			</div><!--quick_wrap-->
+		</div><!--top2-->
+		</div><!--menu_fix-->
+	</header>
+	</div><!--top-->
+	<!--//////상단 끝//////-->
+
+	<!--//////메인//////-->
+	<div id="main_wrap">
+		<div id="main">
+			<h4 >SULBING EVENT</h4>
+			<h2>이벤트</h2>
+			<p>설빙에서 준비한 특별한 이벤트에 참여해보세요</p>
+		</div><!--main-->
+	</div>
+	<nav id="evt_nav">
+		<ul>
+			<li><a href="#" class="selected">진행중인 이벤트</a></li>
+			<li><a href="#">종료된 이벤트</a></li>
+			<li><a href="#">당첨자 발표</a></li>
+		</ul>
+	</nav><!--evt_nav-->
+	<div id="event">
+		<figure id="evt1">
+				<a href="#"><img src="images/event/img0.jpg" alt="비투비와 함께하는 BORN TO SWEET 팬미팅 이벤트" /></a>
+				<figcaption><span>D-30</span>비투비와 함께하는 BORN TO SWEET 팬미팅 이벤트</figcaption>
+				<p>2018-01-10 ~ 2018-02-24</p>
+		</figure><!--evt1-->
+		<figure id="evt2">
+				<a href="#"><img src="images/event/img1.jpg" alt="복숭아 설빙 출시기념 프로모션 이벤트" /></a>
+				<figcaption><span>D-19</span>복숭아 설빙 런칭 기념 프로모션 이벤트</figcaption>
+				<p>2017-12-17 ~ 2017-12-31</p>
+		</figure><!--evt2-->
+		<figure id="evt3">
+				<a href="#"><img src="images/event/img2.jpg" alt="가래떡데이 레시피 공유 이벤트" /></a>
+				<figcaption><span>D-17</span>가래떡데이 레시피 공유 이벤트</figcaption>
+				<p>2017-11-11 ~ 2017-11-12</p>
+		</figure><!--evt3-->
+		<figure id="evt4">
+				<a href="#"><img src="images/event/img3.jpg" alt="메론빙수 마일리지 2배 이벤트" /></a>
+				<figcaption><span>D-10</span>메론빙수 마일리지 2배 이벤트</figcaption>
+				<p>2017-11-01 ~ 2017-11-23</p>
+		</figure><!--evt4-->
+		<figure id="evt5">
+				<a href="#"><img src="images/event/img4.jpg" alt="설빙 앱 출시 이벤트" /></a>
+				<figcaption><span>D-3</span>설빙 앱 출시 이벤트</figcaption>
+				<p>2017-12-17 ~ 2017-12-31</p>
+		</figure><!--evt5-->
+		<figure id="evt6">
+				<a href="#"><img src="images/event/img5.jpg" alt="설빙 인스타그램 해시태그 이벤트" /></a>
+				<figcaption><span class="end">D-0</span>설빙 인스타그램 해시태그 이벤트</figcaption>
+				<p>2017-10-07 ~ 2017-10-28</p>
+		</figure><!--evt6-->
+		<figure id="evt7">
+				<a href="#"><img src="images/event/img6.jpg" alt="2017 9월 가을 신메뉴 출시" /></a>
+				<figcaption><span class="end">D-0</span>2017 9월 가을 신메뉴 출시</figcaption>
+				<p>2017-12-17 ~ 2017-12-31</p>
+		</figure><!--evt7-->
+		<figure id="evt8">
+				<a href="#"><img src="images/event/img8.jpg" alt="복숭아 설빙 이벤트" /></a>
+				<figcaption><span class="end">D-0</span>8월 아메리카노 1+1 이벤트</figcaption>
+				<p>2017-08-01 ~ 2017-08-31</p>
+		</figure><!--evt8-->
+		<p><a href="#">VIEW MORE</a></p>
+	</div><!--event-->
+	<div id="bottom_wrap">
+		<footer>
+			<ul>
+				<li><a href="#">가맹점개설문의</a></li>
+				<li><a href="#">채용문의</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">거래희망회사 사전등록</a></li>
+			</ul>
+		</footer>
+		<div class="address_wrap">
+			<h3><a href="#"><img src="images/bottom/logo_gray.png" alt="설빙 로고" width="80" height="80"/></a></h3>
+			<address>법인: (주)설빙  |  사업자등록번호: 602-81-62460 [사업자정보확인] <br />
+			본사주소 : 서울시 강남구 테헤란로 443 애플트리타워 12/13층  |  대표번호 : 02-3401-7900 ｜ 팩스 : 02-447-8755 <br />
+			<strong>COPYRIGHT(C) SULBING 2013 ALL RIGHTS RESERVED.</strong></address>
+		</div><!--address_wrap-->
+	</div><!--bottom_wrap-->
+ </body>
+</html>
