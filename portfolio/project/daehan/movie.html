@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+  <title>대한극장</title>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/css3-mediaqueries.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/movie.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+ </head>
+ <body>
+   <div class="slide_menu">
+     <div class="slide_top">
+       <a href="mypage.html" class="setting"><img src="images/header/setting.png" alt="설정"></a>
+       <img src="images/header/user_img.png" alt="사용자 이미지" id="user_img">
+       <h2 id="user_name">영화가좋다</h2>
+       <p id="user_rating">VIP Level</p>
+     </div><!--slide_top-->
+     <ul class="slide_list">
+       <li><a href="index.html"><img src="images/header/menu_icon1.png" alt="홈">홈</a></li>
+       <li><a href="booking.html"><img src="images/header/menu_icon3.png" alt="예매">예매</a></li>
+       <li><a href="movie.html"><img src="images/header/menu_icon2.png" alt="영화">영화</a></li>
+       <li><a href="magazine.html"><img src="images/header/menu_icon4.png" alt="매거진">매거진</a></li>
+       <li><a href="#"><img src="images/header/menu_icon5.png" alt="이벤트">이벤트</a></li>
+       <li><a href="#"><img src="images/header/menu_icon6.png" alt="공지사항">공지사항</a></li>
+       <li><a href="#"><img src="images/header/menu_icon7.png" alt="고객센터">고객센터</a></li>
+     </ul><!--slide_list-->
+   </div><!--slide_menu-->
+   <div class="slide_bg">
+
+   </div>
+  <div class="all_wrap">
+
+   <!--HEADER-->
+   <header id="top">
+     <a href="#" class="header_left" onclick="return false;"><img class="left_img" src="images/header/menu.png" alt="메뉴 바로가기"></a>
+     <h1 class="header_tit">영화소개</h1>
+     <a href="booking.html" class="header_right"><img class="right_img" src="images/header/ticket.png" alt="예매 바로가기"></a>
+   </header>
+
+   <!--비디오-->
+   <div id="video" class="lightbox" onclick="hideVideo('video','youtube')">
+     <div class="lightbox-container">
+       <div class="lightbox-content">
+
+         <button onclick="hideVideo('video','youtube')" class="lightbox-close">
+           <img src="images/header/b_cancle.png" alt="닫기">
+         </button>
+         <div class="video-container">
+           <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/k_NDGqLTaVA" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!--container-->
+  <div id="container">
+    <section id="movie_main">
+      <div class="movie_txt">
+        <h2 class="movie_tit"><span>Spiderman Homecoming</span><br>스파이더맨 : 홈커밍</h2>
+        <p class="movie_sub"><span>133분</span><span>액션 / 어드벤쳐 / SF</span><span>12세 관람가</span></p>
+
+        <ul class="movie_star">
+          <li><img src="images/movie/star_on.png" alt="별점"></li>
+          <li><img src="images/movie/star_on.png" alt="별점"></li>
+          <li><img src="images/movie/star_on.png" alt="별점"></li>
+          <li><img src="images/movie/star_on.png" alt="별점"></li>
+          <li><img src="images/movie/star_off.png" alt="별점"></li>
+          <li>4.1/5</li>
+        </ul><!--movie_main-->
+      </div><!--movie_txt-->
+      <div class="swiper-gallery">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href="#" class="movie_gallery"><img src="images/movie/gallery1.jpg" alt="갤러리1"></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#" class="movie_gallery"><img src="images/movie/gallery2.jpg" alt="갤러리2"></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#" class="movie_gallery"><img src="images/movie/gallery3.jpg" alt="갤러리3"></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#" class="movie_gallery"><img src="images/movie/gallery4.jpg" alt="갤러리4"></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#" class="movie_gallery"><img src="images/movie/gallery5.jpg" alt="갤러리5"></a>
+          </li>
+        </ul><!--swiper-wrapper-->
+      </div><!--swiper-container-->
+    </section><!--movie_main-->
+    <section id="story">
+        <div class="title">
+          <h2 class="title_txt">줄거리</h2>
+          <a href="#" class="title_btn">more</a>
+        </div><!--title-->
+        <div class="story_txt">
+          <span> 마블 히어로의 세대교체!<br>
+           “어벤져스가 되려면 시험 같은 거 봐요?”</span><br>
+           ‘시빌 워’ 당시 ‘토니 스타크’(로버트 다우니 주니어)에게 발탁되어
+           대단한 활약을 펼쳤던 스파이더맨 ‘피터 파커’(톰 홀랜드).
+           새 수트를 선물한 ‘토니 스타크’는 위험한 일은 하지 말라며 조언한다.
+           하지만 허세와 정의감으로 똘똘 뭉친 ‘피터 파커’는
+           세상을 위협하는 강력한 적 ‘벌처’(마이클 키튼)에 맞서려 하는데…
+        </div><!--story_txt-->
+    </section><!--story-->
+    <section id="charactors">
+      <div class="title">
+        <h2 class="title_txt title_txt_b">배우/제작진</h2>
+        <a href="#" class="title_btn title_btn_b">more</a>
+      </div><!--title-->
+      <div class="swiper-charactor">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <a href="#" class="charactor_img"><img src="images/movie/charactor1.png" alt="등장인물1"></a>
+          <p class="charactor_txt"><span>존 왓츠</span><br>감독</p>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="charactor_img"><img src="images/movie/charactor2.png" alt="등장인물2"></a>
+          <p class="charactor_txt"><span>톰 홀랜드</span><br>피터 파커</p>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="charactor_img"><img src="images/movie/charactor3.png" alt="등장인물3"></a>
+          <p class="charactor_txt"><span>마이클 키튼</span><br>아드리안 툼즈</p>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="charactor_img"><img src="images/movie/charactor4.png" alt="등장인물4"></a>
+          <p class="charactor_txt"><span>로버트 다우니 주니어</span><br>토니 스타크</p>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="charactor_img"><img src="images/movie/charactor5.png" alt="등장인물5"></a>
+          <p class="charactor_txt"><span>머리사 토메이</span><br>메이 파커</p>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="charactor_img"><img src="images/movie/charactor6.png" alt="등장인물6"></a>
+          <p class="charactor_txt"><span>젠데이아</span><br>미셸</p>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="charactor_img"><img src="images/movie/charactor7.png" alt="등장인물7"></a>
+          <p class="charactor_txt"><span>제이컵 배털론</span><br>네드</p>
+        </li>
+      </ul><!--swiper-wrapper-->
+      </div><!--swiper-container_cha-->
+    </section><!--charactors-->
+    <section id="review">
+      <div class="title">
+        <h2 class="title_txt title_txt_b">평점</h2>
+        <a href="#" class="title_btn title_btn_b">more</a>
+      </div><!--title-->
+      <div class="review_chart">
+        <p class="chart_num ch_selected"><span>8.4</span>%<br>네티즌 평점</p>
+        <p class="chart_num"><span>8.8</span>%<br>관람객 평점</p>
+        <p class="chart_num"><span>7.0</span>%<br>평론가 평점</p>
+      </div><!--review_chart-->
+      <div class="review_list">
+        <ul class="review_box">
+          <li class="rev_tit">
+            <span class="user_id">MIMI9</span>
+            <em class="star"><img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_off.png" alt="별점"></em>
+            <span>8.0</span>
+          </li><!--rev_tit-->
+          <li class="rev_txtarea">마블 유니버스의 전설이 될 그가 왔다.</li>
+          <li class="rev_footer">
+            <span>2017.07.05 22:40</span>
+            <p class="heart">
+              <span><img src="images/movie/rev_heart.png" alt="좋아요"> 137</span>
+              <span><img src="images/movie/rev_txt.png" alt="댓글"> 39</span>
+            </p>
+          </li><!--rev_footer-->
+        </ul><!--review_box-->
+        <ul class="review_box">
+          <li class="rev_tit">
+            <span class="user_id">sing899</span>
+            <em class="star"><img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_off.png" alt="별점">
+            <img src="images/movie/stars_off.png" alt="별점"></em>
+            <span>6.0</span>
+          </li><!--rev_tit-->
+          <li class="rev_txtarea">마블의 품 안에서 티 없이 맑게 무럭무럭 자라다오</li>
+          <li class="rev_footer">
+            <span>2017.07.21 15:03</span>
+            <p class="heart">
+              <span><img src="images/movie/rev_heart.png" alt="좋아요"> 120</span>
+              <span><img src="images/movie/rev_txt.png" alt="댓글"> 3</span>
+            </p>
+          </li><!--rev_footer-->
+        </ul><!--review_box-->
+        <ul class="review_box">
+          <li class="rev_tit">
+            <span class="user_id">영화가좋다</span>
+            <em class="star"><img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점">
+            <img src="images/movie/stars_on.png" alt="별점"></em>
+            <span>10.0</span>
+          </li><!--rev_tit-->
+          <li class="rev_txtarea">돌아온 서민 영웅 스파이더맨</li>
+          <li class="rev_footer">
+            <span>2017.07.07 11:35</span>
+            <p class="heart">
+              <span><img src="images/movie/rev_heart.png" alt="좋아요"> 98</span>
+              <span><img src="images/movie/rev_txt.png" alt="댓글"> 10</span>
+            </p>
+          </li><!--rev_footer-->
+        </ul><!--review_box-->
+      </div><!--review_list-->
+    </section><!--review-->
+    <section id="video">
+      <div class="title">
+        <h2 class="title_txt title_txt_b">무비클립</h2>
+        <a href="#" class="title_btn title_btn_b">more</a>
+      </div><!--title-->
+      <div class="swiper-video">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <button id="playme1" class="video_btn" onclick="revealVideo('video','youtube','https://www.youtube.com/embed/k_NDGqLTaVA')"><img src="images/movie/play_btn.png" alt="재생버튼"></button>
+            <p class="video_txt">스페셜 K-예고편<br><span>784,283</span><em>2017.06.03</em></p>
+            <img src="images/movie/movie1.jpg" alt="영화설명" class="video_img">
+          </li>
+          <li class="swiper-slide">
+            <button id="playme2" class="video_btn" onclick="revealVideo('video','youtube','https://www.youtube.com/embed/y0VTJPTI_u8')"><img src="images/movie/play_btn.png" alt="재생버튼"></button>
+            <p class="video_txt">메인 예고편<br><span>1,709,284</span><em>2017.06.07</em></p>
+            <img src="images/movie/movie2.jpg" alt="영화설명" class="video_img">
+          </li>
+          <li class="swiper-slide">
+            <button id="playme3" class="video_btn" onclick="revealVideo('video','youtube','https://www.youtube.com/embed/LjgFtASzrBA')"><img src="images/movie/play_btn.png" alt="재생버튼"></button>
+            <p class="video_txt">2차 예고편<br><span>1,194,988</span><em>2017.05.14</em></p>
+            <img src="images/movie/movie3.jpg" alt="영화설명" class="video_img">
+          </li>
+          <li class="swiper-slide">
+            <button id="playme4" class="video_btn" onclick="revealVideo('video','youtube','https://www.youtube.com/embed/MKzxAz1e2bU')"><img src="images/movie/play_btn.png" alt="재생버튼"></button>
+            <p class="video_txt">1차 예고편<br><span>923,012</span><em>2017.04.29</em></p>
+            <img src="images/movie/movie4.jpg" alt="영화설명" class="video_img">
+          </li>
+        </ul><!--swiper-wrapper-->
+      </div><!--swiper_vid-->
+
+    </section><!--video-->
+  </div><!--container-->
+  <footer id="footer">
+    <ul class="footer_list">
+      <li><a href="#">로그아웃</a></li>
+      <li><a href="#">PC버전</a></li>
+      <li><a href="#">고객센터</a></li>
+    </ul>
+    <h1 class="copyright"><a href="index.html">© 2001 Daehan Cinema All Right Reserved.</a></h1>
+  </footer><!--footer-->
+  </div><!--all_wrap-->
+
+  <!-- Swiper JS -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/movie.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-gallery', {
+      slidesPerView:5,
+      spaceBetween:20,
+      loop: true,
+      //autoplay: {
+        //delay: 4000,
+        //disableOnInteraction: false,
+      //},
+    });
+  </script>
+  <script>
+    var swiper = new Swiper('.swiper-charactor', {
+      slidesPerView: 4,
+      spaceBetween:20,
+      loop: true,
+      //autoplay: {
+        //delay: 4000,
+        //disableOnInteraction: false,
+      //},
+    });
+  </script>
+  <script>
+    var swiper = new Swiper('.swiper-video', {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      loop: true,
+    });
+  </script>
+</body>
+</html>

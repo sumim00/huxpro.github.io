@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*booking_navi*/
+#booking_navi{
+  width:100%;
+  height:30%;
+}
+.swiper-date{
+  width:100%;
+  height:100%;
+  background:#333333;
+  background-size:contain;
+  overflow: hidden;
+}
+.swiper-date .swiper-wrapper{
+  width:100%;
+  height:100%;
+}
+.swiper-date .swiper-slide {
+  width:100%;
+  height:auto;
+  text-align: center;
+  position: relative;
+  padding:1em 0;
+}
+.swiper-date .swiper-slide a{
+  width:4em;
+  height:3.7em;
+  padding-top:0.3em;
+  color:#ffffff;
+  font-size:0.875em;
+  display: inline-block;
+  text-align:center;
+  line-height: 1.5em;
+}
+.swiper-date .swiper-slide a span{
+  font-size:1.125em;
+}
+.swiper-date .swiper-slide a.selected1{
+  background-color: #555555;
+  border-radius:5em;
+}
+
+/*container*/
+#container{
+  width:100%;
+  height:100%;
+  padding:7% 0;
+  background-color:#cccccc;
+}
+.timetable{
+  width:96%;
+  height:auto;
+  margin:0 auto;
+}
+.timetable_list{
+  width:90%;
+  height:auto;
+  margin-bottom:5%;
+  padding:5%;
+  background-color:#ffffff;
+  box-shadow: 1px 1px 1px #999999;
+}
+.title{
+  width:100%;
+  height:5em;
+  border-bottom:1px solid #cccccc;
+}
+.grade{
+  width:10%;
+  float:left;
+}
+.grade img{
+  width:80%;
+}
+.title_txt{
+  width:75%;
+  float:left;
+  margin-right:5%;
+  font:normal 1.25em/1.5em 'Noto',sans-serif;
+}
+.title_txt .txt_info{
+  font-size:0.875em;
+  color:#999999;
+}
+.title_btn{
+  width:10%;
+  float:right;
+  text-align: right;
+  display: inline-block;
+}
+.title_btn img{
+  width:7%;
+}
+.available_time{
+  width:100%;
+  height:auto;
+  margin-top:1em;
+  overflow: hidden;
+}
+.available_time li{
+  width:23%;
+  height:2em;
+  float:left;
+  margin:1%;
+  line-height:2em;
+  border:1px solid #3ab396;
+  border-radius:5em;
+  color:#3ab396;
+  text-align:center;
+  font-size:1.125em;
+  box-sizing: border-box;
+}
+.available_time li a{
+  width:100%;
+  height:100%:;
+  display:inline-block;
+  color:#3ab396;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+
+}
