@@ -8,16 +8,18 @@
 
 
 
+#### Skills
 
-##### Skills
-
-- HTML
-- CSS
+- HTML5
+- Bootstrap
+- CSS3
 - Sass
 - JavaScript
-- EcmaScript2015 (ES6)
 - jQuery
 - React
-- MongoDB
-- Git
+- Vue.js
+- Git/SVN
+- UI/UX
+- Adobe Photoshop
+- Adobe Illustrator
 
