@@ -157,15 +157,15 @@
 	}
 	.m_slide1{
 		background:url(../images/main/scroll_bg1.jpg) no-repeat center top #0ca38a;
-		background-size: 100% auto;
+		background-size: 100% 100%;
 	}
 	.m_slide2{
 		background:url(../images/main/scroll_bg2.jpg) no-repeat center top #0ca38a;
-		background-size: 100% auto;
+		background-size: 100% 100%;
 	}
 	.m_slide3{
 		background:url(../images/main/scroll_bg3.jpg) no-repeat center top #0ca38a;
-		background-size: 100% auto;
+		background-size: 100% 100%;
 	}
 	.slider div h2{
 		font-family:manl,sans-serif;
@@ -449,35 +449,35 @@
 
 	.b_slide1{
 		background:url(../images/main/best2_bg2.jpg) no-repeat center top;
-		background-size: 100% auto;
+		background-size: auto 100%;
 	}
 	.b_slide1 h4{
 		background:url(../images/main/rank1.png) no-repeat left center;
 	}
 	.b_slide2{
 		background:url(../images/main/best1_bg2.jpg) no-repeat center top;
-		background-size: 100% auto;
+		background-size: auto 100%;
 	}
 	.b_slide2 h4{
 		background:url(../images/main/rank2.png) no-repeat left center;
 	}
 	.b_slide3{
 		background:url(../images/main/best3_bg2.jpg) no-repeat center top;
-		background-size: 100% auto;
+		background-size: auto 100%;
 	}
 	.b_slide3 h4{
 		background:url(../images/main/rank3.png) no-repeat left center;
 	}
 	.b_slide4{
 		background:url(../images/main/best4_bg2.jpg) no-repeat center top;
-		background-size: 100% auto;
+		background-size: auto 100%;
 	}
 	.b_slide4 h4{
 		background:url(../images/main/rank4.png) no-repeat left center;
 	}
 	.b_slide5{
 		background:url(../images/main/best5_bg2.jpg) no-repeat center top;
-		background-size: 100% auto;
+		background-size: auto 100%;
 	}
 	.b_slide5 h4{
 		background:url(../images/main/rank5.png) no-repeat left center;

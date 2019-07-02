@@ -60,7 +60,7 @@
 		width:100%;
 		height:680px;
 		background:url(../images/pro/pro_bg.jpg) no-repeat center #535311;
-		background-size: 100% auto;
+		background-size: 100% 100%;
 	}
 	#banner{
 		width:1200px;
@@ -142,7 +142,7 @@
 		width:100%;
 		height:680px;
 		background:url(../images/pro/char_bg.jpg) no-repeat center;
-		background-size: 100% auto;
+		background-size: 100% 100%;
 	}
 	.charactor{
 		width:1200px;

@@ -28,11 +28,11 @@
 }
 .screen_box{
   width:80%;
-  height:10%;
+  height:2em;
   margin:0 auto;
   text-align: center;
   background:url(../images/seating/screen.png) no-repeat center top;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 .seat_box{
   width:auto;
@@ -41,8 +41,15 @@
   text-align: center;
 }
 .screen_area{
+  display: flex;
+  justify-content: center;
   width:90%;
   margin:0 auto;
+}
+.screen_area:after{
+  content: '';
+  display: block;
+  clear: both;
 }
 .S0{
   margin-top:10%;
@@ -50,8 +57,9 @@
 .seat_tit{
   width:2%;
   height:2%;
-  display: inline-block;
-  margin-left:-1.5em;
+  display: block;
+  float: left;
+  margin-left:-1.0em;
   margin-right:0.5em;
   margin-bottom:1em;
   color:#666666;
@@ -61,7 +69,8 @@
   height:1.8em;
   line-height: 1.5em;
   margin:0.2em;
-  display: inline-block;
+  display: block;
+  float: left;
   background-color:#3ab396;
   border:2px solid #3ab396;
   border-radius:0.4em;

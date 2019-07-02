@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import "common.css";
+
+.visual_wrap {position:relative; width:100%}
+.visual_slide {height:340px; overflow:hidden}
+.slide_box {width:100%; height:100%}
+.slide_box.slide_box {}
+.slide_box.slide_box .tit_box {text-align:center}
+.slide_box.slide_box .tit_box .tit {padding-top:40px; font-size:30px; color:#fff}
+.slide_box.slide_box .tit_box .desc {margin-top:20px; font-size:14px; color:#fff; line-height:18px}
+.slide_box.slide_box .state_box {width:calc(100% - 80px); height:110px; margin:0 auto; margin-top:20px; text-align:center; border:1px solid #fff; background-color:rgba(255,255,255,0.1)}
+.slide_box.slide_box .state_box .name {display:block; margin-top:20px; font-size:18px; color:#fff}
+.slide_box.slide_box .state_box .num {display:block; margin-top:10px; font-size:36px; font-weight:700; color:#fff}
+
+.main_tit_wrap {padding:32px 0 20px 0; margin:0 20px; text-align:center}
+.main_tit_wrap .tit {height:100%; font-size:32px; font-weight:300; color:#ff4200}
+.main_tit_wrap.border {border-bottom:1px solid #ddd}
+
+.prime_wrap {background-color:#f9f9f9}
+.calendar_wrap {padding-bottom:38px}
+.calendar_wrap .sel_box {height:40px; padding:0 20px}
+
+
+
+
+
+
+
+
+
+
+
+/* 끝 */
