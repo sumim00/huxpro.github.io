@@ -1,10 +1,10 @@
 # Site settings
-title: "Sumim's day"
-SEOTitle: "Sumim's day"
+title: "Sumim's Devlog"
+SEOTitle: "Sumim's Devlog"
 header-img: img/home-bg.jpg
 email: vivid8222@gmail.com
-description: "Web"
-keyword: "Web, Front-End, UI, UX, HTML, CSS, JavaScript, Sumim"
+description: "보고 듣고 느낀 개발"
+keyword: "Web, Front-End, UI, UX, HTML, CSS, JavaScript, React, Vue, Sumim"
 url: "https://sumim00.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
