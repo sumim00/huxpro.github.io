@@ -12,8 +12,6 @@ comments: true
 categories: [diary]
 tags:
     - 정보처리기사
-	- 정처기
-    - 실기
 ---
 
 
