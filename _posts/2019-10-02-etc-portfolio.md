@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "Nuxt.js로 포트폴리오 페이지 만들기"
-subtitle:     "주니어 개발자의 포트폴리오 제작 과정"
+title:        "주니어 개발자의 포트폴리오 만들기"
+subtitle:     "2019년 포트폴리오 제작 과정과 소감"
 date:         2019-10-02 14:30:00
 author:       "Sumim"
 header-img:   "img/in-post/2019/1002_img04.jpg"
@@ -14,8 +14,6 @@ tags:
     - etc
 	- portfolio
 ---
-
-
 
 
 
