@@ -9,10 +9,10 @@ header-mask:  0.5
 catalog:      true
 multilingual: true
 comments: true
-categories: [etc]
+categories: [diary]
 tags:
+    - portfolio
     - etc
-	- portfolio
 ---
 
 

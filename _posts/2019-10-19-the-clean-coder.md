@@ -1,19 +1,19 @@
 ---
 layout:       post
-title:        "2019년 2회 정보처리기사 실기 합격 후기"
-subtitle:     "비전공자의 정처기 공부 과정 및 소소한 조언"
-date:         2019-08-16 10:30:00
+title:        "The Clean Coder"
+subtitle:     "SW 장인의 길을 여행하는 개발자를 위한 안내서"
+date:         2019-10-19 16:09:00
 author:       "Sumim"
-header-img:   "img/in-post/thumb/blank02.jpg"
-header-mask:  0
+header-img:   "img/in-post/2019/1019_img01.jpg"
+header-mask:  0.5
 catalog:      true
 multilingual: true
 comments: true
 categories: [diary]
 tags:
-    - 정보처리기사
+    - book
+    - thecleancoder
 ---
-
 
 
 
