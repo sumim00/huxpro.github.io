@@ -120,7 +120,7 @@ WAS에서 로직을 수행하다가 DB접근이 필요하면 SQL질의를 통해
 
 ### Refer
 
-[웹의 동작 방식 - Web 개발 학습하기 | MDN]([https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/%EC%9B%B9%EC%9D%98_%EB%8F%99%EC%9E%91_%EB%B0%A9%EC%8B%9D](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/웹의_동작_방식))
+[웹의 동작 방식 - Web 개발 학습하기 | MDN](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/%EC%9B%B9%EC%9D%98_%EB%8F%99%EC%9E%91_%EB%B0%A9%EC%8B%9D)
 
 [웹 애플리케이션 동작 원리 :: 훈마로의 보물창고](<https://hoonmaro.tistory.com/26>)
 
